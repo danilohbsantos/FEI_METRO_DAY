@@ -1,0 +1,196 @@
+login as: admin
+admin@192.168.1.1's password:
+Access denied
+admin@192.168.1.1's password:
+
+
+BusyBox v1.30.1 () built-in shell (ash)
+
+ -----------------------------------------------------------------
+  _____ _   _ _______ ______ _      ____  _____             _____
+ |_   _| \ | |__   __|  ____| |    |  _ \|  __ \     /\    / ____|
+   | | |  \| |  | |  | |__  | |    | |_) | |__) |   /  \  | (___
+   | | | . ` |  | |  |  __| | |    |  _ <|  _  /   / /\ \  \___ \
+  _| |_| |\  |  | |  | |____| |____| |_) | | \ \  / ____ \ ____) |
+ |_____|_| \_|  |_|  |______|______|____/|_|  \_\/_/    \_\_____/
+
+ ------------------------------------------------------------------
+
+admin@GX 3000:~# usbmode -l
+-ash: usbmode: not found
+admin@GX 3000:~# usbmode -s
+-ash: usbmode: not found
+admin@GX 3000:~# ls
+admin@GX 3000:~# cd ..
+admin@GX 3000:/# ls
+bin      data     etc      init     mnt      proc     root     sys      usr      vendor   www
+cfg      dev      ini      lib      overlay  rom      sbin     tmp      var      webapps
+admin@GX 3000:/# ls /sys
+block     bus       class     dev       devices   firmware  fs        kernel    module    power     sfe_drv   sfe_ipv4  sfe_ipv6  ssdk
+admin@GX 3000:/# ls /sys/bus
+amba          container     event_source  mdio_bus      msm_subsys    platform      scsi          spi           virtio
+clockevents   coresight     i2c           mhi           nvmem         qfprom        sdio          spmi          workqueue
+clocksource   cpu           iio           mmc           pci           rpmsg         snd_seq       usb
+admin@GX 3000:/# ls /sys/bus/usb
+devices            drivers            drivers_autoprobe  drivers_probe      uevent
+admin@GX 3000:/# ls /sys/bus/usb/drivers
+hub          uas          usb          usb-storage  usbfs
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb
+bind    module  uevent  unbind  usb1    usb2
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module
+coresize    drivers     holders     initsize    initstate   notes       parameters  refcnt      sections    taint       uevent
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/parameters
+authorized_default          blinkenlights               nousb                       usbfs_memory_mb             use_both_schemes
+autosuspend                 initial_descriptor_timeout  old_scheme_first            usbfs_snoop
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers
+usb:hub    usb:usb    usb:usbfs
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb
+bind    module  uevent  unbind  usb1    usb2
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1
+1-0:1.0                       bMaxPacketSize0               descriptors                   interface_authorized_default  remove
+authorized                    bMaxPower                     dev                           ltm_capable                   serial
+authorized_default            bNumConfigurations            devnum                        manufacturer                  speed
+avoid_reset_quirk             bNumInterfaces                devpath                       maxchild                      subsystem
+bConfigurationValue           bcdDevice                     driver                        power                         uevent
+bDeviceClass                  bmAttributes                  ep_00                         product                       urbnum
+bDeviceProtocol               busnum                        idProduct                     quirks                        version
+bDeviceSubClass               configuration                 idVendor                      removable
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver
+bind    module  uevent  unbind  usb1    usb2
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1[
+ls: /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1[: No such file or directory
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1
+1-0:1.0                       bMaxPacketSize0               descriptors                   interface_authorized_default  remove
+authorized                    bMaxPower                     dev                           ltm_capable                   serial
+authorized_default            bNumConfigurations            devnum                        manufacturer                  speed
+avoid_reset_quirk             bNumInterfaces                devpath                       maxchild                      subsystem
+bConfigurationValue           bcdDevice                     driver                        power                         uevent
+bDeviceClass                  bmAttributes                  ep_00                         product                       urbnum
+bDeviceProtocol               busnum                        idProduct                     quirks                        version
+bDeviceSubClass               configuration                 idVendor                      removable
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/driver
+bind    module  uevent  unbind  usb1    usb2
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/driver/module
+coresize    drivers     holders     initsize    initstate   notes       parameters  refcnt      sections    taint       uevent
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/driver/module/notes
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/driver/module/parameters
+authorized_default          blinkenlights               nousb                       usbfs_memory_mb             use_both_schemes
+autosuspend                 initial_descriptor_timeout  old_scheme_first            usbfs_snoop
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/1-0:1.0
+authorized            bInterfaceNumber      bNumEndpoints         modalias              supports_autosuspend
+bAlternateSetting     bInterfaceProtocol    driver                power                 uevent
+bInterfaceClass       bInterfaceSubClass    ep_81                 subsystem             usb1-port1
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/1-0:1.0/subsystem
+devices            drivers            drivers_autoprobe  drivers_probe      uevent
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/1-0:1.0/subsystem/devices
+1-0:1.0  2-0:1.0  usb1     usb2
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/1-0:1.0/subsystem/devices/1-0:1.0
+authorized            bInterfaceNumber      bNumEndpoints         modalias              supports_autosuspend
+bAlternateSetting     bInterfaceProtocol    driver                power                 uevent
+bInterfaceClass       bInterfaceSubClass    ep_81                 subsystem             usb1-port1
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/1-0:1.0/subsystem/devices/1-0:1.0/usb1-port1
+connect_type  peer          power         uevent
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/1-0:1.0/subsystem/devices/1-0:1.0/usb1-port1/peer
+connect_type  peer          power         uevent
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/1-0:1.0/subsystem/devices/1-0:1.0/usb1-port1/peer/peer
+connect_type  peer          power         uevent
+admin@GX 3000:/# ls /sys/bus/usb/drivers/usb/module/drivers/usb:usb/usb1/driver/usb1/1-0:1.0/subsystem/devices/1-0:1.0/usb1-port1/peer/peer
+connect_type  peer          power         uevent
+admin@GX 3000:/# opkg install kmod-usb-net-qmi-wwan kmod-usb-serial-option kmod-usb-serial-qualcomm
+Unknown package 'kmod-usb-net-qmi-wwan'.
+Unknown package 'kmod-usb-serial-option'.
+Unknown package 'kmod-usb-serial-qualcomm'.
+Collected errors:
+ * opkg_install_cmd: Cannot install package kmod-usb-net-qmi-wwan.
+ * opkg_install_cmd: Cannot install package kmod-usb-serial-option.
+ * opkg_install_cmd: Cannot install package kmod-usb-serial-qualcomm.
+admin@GX 3000:/# opkg install kmod-usb-net-qmi-wwan
+Unknown package 'kmod-usb-net-qmi-wwan'.
+Collected errors:
+ * opkg_install_cmd: Cannot install package kmod-usb-net-qmi-wwan.
+admin@GX 3000:/# uqmi
+-ash: uqmi: not found
+admin@GX 3000:/# opkg uqmi
+opkg: unknown sub-command uqmi
+usage: opkg [options...] sub-command [arguments...]
+where sub-command is one of:
+
+Package Manipulation:
+        update                  Update list of available packages
+        upgrade <pkgs>          Upgrade packages
+        install <pkgs>          Install package(s)
+        configure <pkgs>        Configure unpacked package(s)
+        remove <pkgs|regexp>    Remove package(s)
+        flag <flag> <pkgs>      Flag package(s)
+         <flag>=hold|noprune|user|ok|installed|unpacked (one per invocation)
+
+Informational Commands:
+        list                    List available packages
+        list-installed          List installed packages
+        list-upgradable         List installed and upgradable packages
+        list-changed-conffiles  List user modified configuration files
+        files <pkg>             List files belonging to <pkg>
+        search <file|regexp>    List package providing <file>
+        find <regexp>           List packages whose name or description matches <regexp>
+        info [pkg|regexp]       Display all info for <pkg>
+        status [pkg|regexp]     Display all status for <pkg>
+        download <pkg>          Download <pkg> to current directory
+        compare-versions <v1> <op> <v2>
+                            compare versions using <= < > >= = << >>
+        print-architecture      List installable package architectures
+        depends [-A] [pkgname|pat]+
+        whatdepends [-A] [pkgname|pat]+
+        whatdependsrec [-A] [pkgname|pat]+
+        whatrecommends[-A] [pkgname|pat]+
+        whatsuggests[-A] [pkgname|pat]+
+        whatprovides [-A] [pkgname|pat]+
+        whatconflicts [-A] [pkgname|pat]+
+        whatreplaces [-A] [pkgname|pat]+
+
+Options:
+        -A                      Query all packages not just those installed
+        -V[<level>]             Set verbosity level to <level>.
+        --verbosity[=<level>]   Verbosity levels:
+                                        0 errors only
+                                        1 normal messages (default)
+                                        2 informative messages
+                                        3 debug
+                                        4 debug level 2
+        -f <conf_file>          Use <conf_file> as the opkg configuration file
+        --conf <conf_file>
+        --cache <directory>     Use a package cache
+        -d <dest_name>          Use <dest_name> as the the root directory for
+        --dest <dest_name>      package installation, removal, upgrading.
+                                <dest_name> should be a defined dest name from
+                                the configuration file, (but can also be a
+                                directory name in a pinch).
+        -o <dir>                Use <dir> as the root directory for
+        --offline-root <dir>    offline installation of packages.
+        --add-arch <arch>:<prio>        Register architecture with given priority
+        --add-dest <name>:<path>        Register destination with given path
+
+Force Options:
+        --force-depends         Install/remove despite failed dependencies
+        --force-maintainer      Overwrite preexisting config files
+        --force-reinstall       Reinstall package(s)
+        --force-overwrite       Overwrite files from other package(s)
+        --force-downgrade       Allow opkg to downgrade packages
+        --force-space           Disable free space checks
+        --force-postinstall     Run postinstall scripts even in offline mode
+        --force-remove  Remove package even if prerm script fails
+        --force-checksum        Don't fail on checksum mismatches
+        --noaction              No action -- test only
+        --download-only No action -- download only
+        --nodeps                Do not follow dependencies
+        --nocase                Perform case insensitive pattern matching
+        --size                  Print package size when listing available packages
+        --force-removal-of-dependent-packages
+                                Remove package and all dependencies
+        --autoremove            Remove packages that were installed
+                                automatically to satisfy dependencies
+        -t                      Specify tmp-dir.
+        --tmp-dir               Specify tmp-dir.
+
+ regexp could be something like 'pkgname*' '*file*' or similar
+ e.g. opkg info 'libstd*' or opkg search '*libop*' or opkg remove 'libncur*'
+admin@GX 3000:/#
