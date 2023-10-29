@@ -1,0 +1,700 @@
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_read_xml_config:1175] Profile_num = 0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_read_xml_config:1165] family = IPV4V6
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_read_xml_config:1197] call_status_v6 = 0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_read_xml_config:1186] call_status_v4 = 0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_read_xml_config:1215] ac for this pdn? = 1, pdn_type= 0, profilenum = 0, global_ac = 1, call_status_v4 = 0, call_status_v6 = 0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_check_modem_tech:515] Serving System=0,  ret=-1
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_enable_bh_v4:1969] handle4 0x7684e030, profile 0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_enable_bh_v4:1990] dsi_start_data_callv4 success rval 0
+Sun Jan  1 00:00:06 2017 user.debug SimpleRIL[6108]: ERROR (INVALID ARGUMENT)
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x7684e030, evt 18, profile 0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 18 recv
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_process_dsi_event:663] evt 18, handle_v4 0x7684e030, profile 0, call_state 2
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x7684e030, evt 1, profile 0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 1 recv
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_process_dsi_event:663] evt 1, handle_v4 0x7684e030, profile 0, call_state 2
+Sun Jan  1 00:00:06 2017 user.warn kernel: [   95.708539] [ipqcm_process_dsi_event][705]:[IPQCM] ipv4 connected for profile 0
+Sun Jan  1 00:00:06 2017 user.err : [IPQCM: ipqcm_update_call_status_value:475] cfg_ret is null. retry count: 1
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_process_dsi_event:711] getting devname for handle_v4 0x7684e030, profile 0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_process_dsi_event:718] devname rmnet_data0 for handle_v4 0x7684e030, profile 0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_print_ip_addr:2383] SaveInfo dev:rmnet_data0, handle4 0x7684e030, profile 0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_print_ip_addr:2450] Fam: 4, addr cnt 1, device rmnet_data0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_print_ip_addr:2464] filename /tmp/ipv4config0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_print_ip_addr:2526] IPV4:100.66.164.175
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_process_dsi_event:721] bringing up rmnet_data0 for v4 profile  0
+Sun Jan  1 00:00:06 2017 user.debug : [IPQCM: ipqcm_perform_rmnet_update:143] Setting Profile_num: 0 to state: 1
+Sun Jan  1 00:00:07 2017 user.debug : [IPQCM: ipqcm_check_modem_tech:515] Serving System=0,  ret=-1
+Sun Jan  1 00:00:07 2017 user.debug : [IPQCM: ipqcm_enable_bh_v6:1875] handle6 0x769ba0e0, profile 0
+Sun Jan  1 00:00:07 2017 user.debug : [IPQCM: ipqcm_enable_bh_v6:1897] dsi_start_data_callv6 success rval 0
+Sun Jan  1 00:00:07 2017 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x769ba0e0, evt 18, profile 0
+Sun Jan  1 00:00:07 2017 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x769ba0e0, evt 1, profile 0
+Sun Jan  1 00:00:08 2017 daemon.notice netifd: Interface 'wan1' is setting up now
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 18 recv
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_process_dsi_event:573] evt 18, handle_v6 0x769ba0e0, profile 0, call_state 2
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 1 recv
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_process_dsi_event:573] evt 1, handle_v6 0x769ba0e0, profile 0, call_state 2
+Sun Jan  1 00:00:08 2017 user.warn kernel: [   97.105866] [ipqcm_process_dsi_event][615]:[IPQCM] ipv6 connected for profile 0
+Sun Jan  1 00:00:08 2017 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Jan  1 00:00:08 2017 user.notice admin: start rmnet wan1
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_process_dsi_event:621] getting devname for handle_v6 0x769ba0e0, profile 0
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_process_dsi_event:630] devname rmnet_data0 for handle_v6 0x769ba0e0, profile 0
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_print_ip_addr:2421] SaveInfo dev:rmnet_data0, handle6 0x769ba0e0, profile 0
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_print_ip_addr:2450] Fam: 6, addr cnt 2, device rmnet_data0
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_print_ip_addr:2464] filename /tmp/ipv4config0
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_print_ip_addr:2526] IPV4:100.66.164.175
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_print_ip_addr:2471] filename /tmp/ipv6config0
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_print_ip_addr:2531] IPV6:2804:0214:82d0:3eb3:1178:eaff:9172:1d63
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_process_dsi_event:634] bringing up rmnet_data0 for v6 profile  0
+Sun Jan  1 00:00:08 2017 user.debug : [IPQCM: ipqcm_perform_rmnet_update:143] Setting Profile_num: 0 to state: 1
+Sun Jan  1 00:00:08 2017 user.notice admin: stop rmnet cfg:wan1
+Sun Jan  1 00:00:08 2017 daemon.err rmmod: unloading the module failed
+Sun Jan  1 00:00:08 2017 kern.info kernel: [   97.768991] ECM exit
+Sun Jan  1 00:00:08 2017 daemon.notice netifd: wan1 (9276): Interface lan_bind6 not found
+Sun Jan  1 00:00:08 2017 daemon.notice netifd: wan1 (9276): Interface lan_bind4 not found
+Sun Jan  1 00:00:08 2017 daemon.notice netifd: wan1 (9276): sh: 1: unknown operand
+Sun Jan  1 00:00:08 2017 daemon.notice netifd: Interface 'wan1' is now down
+Sun Jan  1 00:00:08 2017 kern.info kernel: [   97.987195] ECM exit complete
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: Interface 'lan_bind6' is enabled
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: Interface 'lan_bind6' is setting up now
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: Interface 'lan_bind6' is now up
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: lan_bind6, br-lan, static
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: Interface 'lan_bind6' has link connectivity 
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: Interface 'wan1' is setting up now
+Sun Jan  1 00:00:09 2017 user.notice admin: start rmnet wan1
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: Network device 'rmnet_data0' link is up
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: Interface 'wan1' is now up
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: wan1, (null), rmnet
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: interface_proto_event_cb, L:693, set main_status 1
+Sun Jan  1 00:00:09 2017 daemon.notice netifd: wan1 (9545): ifconfig: pppoe-wan: error fetching interface information: Device not found
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPDISCOVER(br-lan) 54:bf:64:f4:3d:6a 
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPOFFER(br-lan) 192.168.1.122 54:bf:64:f4:3d:6a 
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq[6858]: reading /tmp/resolv.conf.auto
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq[6858]: using local addresses only for domain lan
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq[6858]: using nameserver 189.40.198.88#53
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq[6858]: using nameserver 189.40.198.80#53
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq[6858]: using nameserver 2804:214:8000:ffff::88#53
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq[6858]: using nameserver 2804:214:8000:ffff::80#53
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPDISCOVER(br-lan) 54:bf:64:f4:3d:6a 
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPOFFER(br-lan) 192.168.1.122 54:bf:64:f4:3d:6a 
+Sun Jan  1 00:00:09 2017 daemon.warn dnsmasq-dhcp[6858]: no address range available for DHCPv6 request via br-lan
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPREQUEST(br-lan) 192.168.1.122 54:bf:64:f4:3d:6a 
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPACK(br-lan) 192.168.1.122 54:bf:64:f4:3d:6a danilohbsantos
+Sun Jan  1 00:00:09 2017 daemon.warn dnsmasq-dhcp[6858]: no address range available for DHCPv6 request via br-lan
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPv6, IP range 2804:214:82d0:3eb3::1000 -- 2804:214:82d0:3eb3::ffff, lease time 12h, constructed for br-lan
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPv4-derived IPv6 names on 2804:214:82d0:3eb3::, constructed for br-lan
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: router advertisement on 2804:214:82d0:3eb3::, constructed for br-lan
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: router advertisement on fd2f:21c4:6eb6::, old prefix for br-lan
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPCONFIRM(br-lan) 00:01:00:01:2c:9f:6b:c6:54:bf:64:f4:3d:6a 
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPREPLY(br-lan) fd2f:21c4:6eb6::5f5c 00:01:00:01:2c:9f:6b:c6:54:bf:64:f4:3d:6a confirm failed
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPSOLICIT(br-lan) 00:01:00:01:2c:9f:6b:c6:54:bf:64:f4:3d:6a 
+Sun Jan  1 00:00:09 2017 daemon.info dnsmasq-dhcp[6858]: DHCPADVERTISE(br-lan) 2804:214:82d0:3eb3::5f5c 00:01:00:01:2c:9f:6b:c6:54:bf:64:f4:3d:6a danilohbsantos
+Sun Jan  1 00:00:10 2017 daemon.notice netifd: Interface 'lan_bind6' is now down
+Sun Jan  1 00:00:10 2017 daemon.notice netifd: Interface 'lan_bind6' has link connectivity loss
+Sun Jan  1 00:00:10 2017 daemon.info dnsmasq-dhcp[6858]: router advertisement on 2804:214:82d0:3eb3::, old prefix for br-lan
+Sun Jan  1 00:00:10 2017 daemon.notice netifd: Interface 'lan_bind6' is enabled
+Sun Jan  1 00:00:10 2017 daemon.notice netifd: Interface 'lan_bind6' is setting up now
+Sun Jan  1 00:00:10 2017 daemon.notice netifd: Interface 'lan_bind6' is now up
+Sun Jan  1 00:00:10 2017 daemon.notice netifd: lan_bind6, br-lan, static
+Sun Jan  1 00:00:10 2017 daemon.notice netifd: Interface 'lan_bind6' has link connectivity 
+Sun Jan  1 00:00:10 2017 daemon.notice netifd: wan1 (9545): Command failed: Unknown error
+Sun Jan  1 00:00:10 2017 daemon.notice netifd: wan1 (9545): RTNETLINK answers: File exists
+Sun Jan  1 00:00:10 2017 daemon.notice netifd: wan1 (9545): RTNETLINK answers: No such process
+Sun Jan  1 00:00:10 2017 kern.warn kernel: [   99.834549] vmap allocation for size 1122304 failed: use vmalloc=<size> to increase size.
+Sun Jan  1 00:00:10 2017 daemon.warn dnsmasq-dhcp[6858]: no address range available for DHCPv6 request via br-lan
+Sun Jan  1 00:00:10 2017 kern.warn kernel: [   99.989143] vmap allocation for size 1122304 failed: use vmalloc=<size> to increase size.
+Sun Jan  1 00:00:10 2017 kern.warn kernel: [   99.990342] vmap allocation for size 86016 failed: use vmalloc=<size> to increase size.
+Sun Jan  1 00:00:11 2017 user.notice admin: update rmnet done
+Sun Jan  1 00:00:11 2017 kern.info kernel: [  100.221573] ECM init
+Sun Jan  1 00:00:11 2017 kern.info kernel: [  100.221722] ECM database jhash random seed: 0x888db76e
+Sun Jan  1 00:00:11 2017 daemon.err insmod: failed to insert /lib/modules/4.4.60/ecm.ko
+Sun Jan  1 00:00:11 2017 kern.info kernel: [  100.280869] ECM init complete
+Sun Jan  1 00:00:11 2017 kern.info kernel: [  100.381699] ECM OVS Test INIT
+Sun Jan  1 00:00:11 2017 daemon.err insmod: module is already loaded - ecm_ovs
+Sun Jan  1 00:00:11 2017 kern.err kernel: [  100.458431] wlan: [9894:I:ANY] wlan_scan_update_channel_list: num_chan: 13
+Sun Jan  1 00:00:11 2017 kern.err kernel: [  100.458651] wlan: [9894:I:ANY] ieee80211_setctry_tryretaining_curchan: [467] Skipping current channel retention during set_country operation
+Sun Jan  1 00:00:11 2017 kern.err kernel: [  100.458716] wlan: [9894:I:ANY] number of channels: 2G = 13 5G = 0, 6G = 0
+Sun Jan  1 00:00:11 2017 kern.err kernel: [  100.458738] wlan: [9894:I:ANY] wlan_cfg80211_set_country: wlan_cfg80211_set_country: Country: BR ret: 0 
+Sun Jan  1 00:00:11 2017 daemon.info dnsmasq-dhcp[6858]: DHCPv6, IP range 2804:214:82d0:3eb3::1000 -- 2804:214:82d0:3eb3::ffff, lease time 12h, constructed for br-lan
+Sun Jan  1 00:00:11 2017 daemon.info dnsmasq-dhcp[6858]: DHCPv4-derived IPv6 names on 2804:214:82d0:3eb3::, constructed for br-lan
+Sun Jan  1 00:00:11 2017 daemon.info dnsmasq-dhcp[6858]: router advertisement on 2804:214:82d0:3eb3::, constructed for br-lan
+Sun Jan  1 00:00:11 2017 daemon.info dnsmasq[6858]: exiting on receipt of SIGTERM
+Sun Jan  1 00:00:12 2017 daemon.emerg procd: Enable ol_stats by default for Lithium platforms
+Sun Jan  1 00:00:12 2017 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sun Jan  1 00:00:12 2017 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sun Jan  1 00:00:12 2017 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sun Jan  1 00:00:12 2017 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sun Jan  1 00:00:12 2017 kern.err kernel: [  101.732705] wlan: [10097:I:ANY] wlan_cfg80211_set_hwaddr: wlan_cfg80211_set_hwaddr :d8:36:5f:9d:fe:30 ret: 0 
+Sun Jan  1 00:00:12 2017 kern.err kernel: [  101.856050] wlan: [10116:I:ANY] ol_ath_set_config_param: set TXBF_SND_PERIOD: val 100 stat 0
+Sun Jan  1 00:00:13 2017 kern.err kernel: [  102.190088] wlan: [0:I:RPTR] RPTR disconnect_timeout:10
+Sun Jan  1 00:00:13 2017 kern.err kernel: [  102.190088] 
+Sun Jan  1 00:00:13 2017 kern.err kernel: [  102.326267] wlan: [0:I:RPTR] RPTR reconfiguration_timeout:60
+Sun Jan  1 00:00:13 2017 kern.err kernel: [  102.326267] 
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: started, version 2.80 cachesize 150
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: DNS service limited to local subnets
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth nettlehash DNSSEC no-ID loop-detect inotify dumpfile
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq-dhcp[10192]: DHCP, IP range 192.168.1.100 -- 192.168.1.249, lease time 12h
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq-dhcp[10192]: DHCPv6, IP range ::1000 -- ::ffff, lease time 12h, template for br-lan
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq-dhcp[10192]: DHCPv4-derived IPv6 names on br-lan
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq-dhcp[10192]: router advertisement on br-lan
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq-dhcp[10192]: DHCPv6, IP range 2804:214:82d0:3eb3::1000 -- 2804:214:82d0:3eb3::ffff, lease time 12h, constructed for br-lan
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq-dhcp[10192]: DHCPv4-derived IPv6 names on 2804:214:82d0:3eb3::, constructed for br-lan
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq-dhcp[10192]: router advertisement on 2804:214:82d0:3eb3::, constructed for br-lan
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq-dhcp[10192]: IPv6 router advertisement enabled
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: using local addresses only for domain lan
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: reading /tmp/resolv.conf.auto
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: using local addresses only for domain lan
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: using nameserver 189.40.198.88#53
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: using nameserver 189.40.198.80#53
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: using nameserver 2804:214:8000:ffff::88#53
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: using nameserver 2804:214:8000:ffff::80#53
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: read /etc/hosts - 1 addresses
+Sun Jan  1 00:00:13 2017 daemon.info dnsmasq[10192]: read /tmp/hosts/dhcp.cfg01411c - 4 addresses
+Sun Jan  1 00:00:13 2017 daemon.err dnsmasq-dhcp[10192]: failed to read /etc/ethers: No such file or directory
+Sun Oct 29 01:31:43 2023 daemon.info dnsmasq-dhcp[10192]: DHCPREQUEST(br-lan) 00:01:00:01:2c:9f:6b:c6:54:bf:64:f4:3d:6a 
+Sun Oct 29 01:31:43 2023 daemon.info dnsmasq-dhcp[10192]: DHCPREPLY(br-lan) 2804:214:82d0:3eb3::5f5c 00:01:00:01:2c:9f:6b:c6:54:bf:64:f4:3d:6a danilohbsantos
+Sun Oct 29 01:31:43 2023 daemon.emerg procd: Enable ol_stats by default for Lithium platforms
+Sun Oct 29 01:31:44 2023 daemon.emerg procd: cat: can't open '/sys/class/net/ath0/address': No such file or directory
+Sun Oct 29 01:31:44 2023 daemon.emerg procd: cfg80211: ifname: ath0 mode: __ap cfgphy: phy2
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.401644] wlan: [10641:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath0 : clone params: 0x00000001 
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.401742] wlan: [10641:I:MBSSIE] osif_mbssid_sanity_check: mbssid_sanity_ok: YES
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.401775] wlan: [10641:I:ANY] osifp_create_wlan_vap: VDEV Create d8:36:5f:9d:fe:30
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.401882] wlan: [10641:I:ANY] wlan_vap_create: devhandle=0x97df0500, opmode=IEEE80211_M_HOSTAP, flags=0x1
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.401882] 
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.409134] wlan: [10641:I:ANY] ol_ath_vap_set_param: Setting SGI value: 1
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.409260] wlan: [10641:I:ANY] ol_ath_vap_set_param: VDEV params:HE su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:0|dl_muofdma:1|ul_muofdma:1|ul_mumimo:0|dl_muofdma_bfer:0
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.409278] wlan: [10641:I:ANY] ol_ath_vap_set_param: he_bf_cap=0x33
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.409329] wlan: [10641:I:ANY] ol_ath_vap_set_param: VDEV params: AC/VHT sounding mode:HE|SU/MU sounding mode:SU|Trig/Non-Trig sounding mode:Non-Trigged
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.409439] wlan: [10641:I:ANY] MBO Initialized
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.409461] wlan: [10641:I:ANY] OCE Initialized
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.409527] wlan: [10641:I:ANY] osif_nss_ol_vap_create: NSS wifi offload VAP create IF 28 nss_id -1 
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.409552] wlan: [10641:I:ANY] osif_nss_ol_vap_create: NSS radio_if 30
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.409714] wlan: [0:I:ANY] osif_nss_vdev_cfg_callback: VDEV configuration success: 0
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.413277] wlan: [10641:I:ANY] osif_nss_ol_vap_create: vap create 913d3500 : if_num 28 
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.417226] wlan: [10641:E:ANY] wlan_create_attach_vdev_rawsim_ctxt: simulation module not registerd
+Sun Oct 29 01:31:44 2023 daemon.emerg procd: sh: 0: unknown operand
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.436657] wlan: [10641:I:ANY] osif_create_vap_complete: TX Checksum:1|SG:1|TSO:1|LRO:0
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.436699] wlan: [10641:I:ANY] WLAN-NSS: VAP NSS ops initialized 
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.436922] wlan: [10641:I:RPTR] RPTR vdev flags:0 pdev flags:0 vdev_id:0 pdev_id:0
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.436922] 
+Sun Oct 29 01:31:44 2023 kern.err kernel: [  104.438722] wlan: [10641:I:ANY] VAP device ath0 created osifp: (913d3500) os_if: (912bc000)
+Sun Oct 29 01:31:46 2023 daemon.emerg procd: sh: 1: unknown operand
+Sun Oct 29 01:31:46 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:31:46 2023 kern.err kernel: [  106.557973] wlan: [11067:I:ANY] ieee80211_ucfg_setparam_util: Setting Max Stations:64
+Sun Oct 29 01:31:47 2023 daemon.emerg procd: Following channels are blocked from Channel selection algorithm  
+Sun Oct 29 01:31:47 2023 daemon.emerg procd: [12] [13] 
+Sun Oct 29 01:31:47 2023 daemon.emerg procd: sh: out of range
+Sun Oct 29 01:31:48 2023 daemon.emerg procd: sh: ]: unknown operand
+Sun Oct 29 01:31:48 2023 kern.info kernel: [  108.661334] 8021q: adding VLAN 0 to HW filter on device ath0
+Sun Oct 29 01:31:48 2023 kern.info kernel: [  108.673311] device ath0 entered promiscuous mode
+Sun Oct 29 01:31:48 2023 kern.info kernel: [  108.674612] br-lan: port 2(ath0) entered listening state
+Sun Oct 29 01:31:48 2023 kern.info kernel: [  108.674745] br-lan: port 2(ath0) entered listening state
+Sun Oct 29 01:31:49 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:31:49 2023 daemon.emerg procd: OK
+Sun Oct 29 01:31:49 2023 kern.err kernel: [  108.858197] wlan: [4807:I:ANY] wlan_cfg80211_do_acs: vap-0(ath0):ACS Params
+Sun Oct 29 01:31:49 2023 kern.err kernel: [  108.858228] wlan: [4807:I:ANY] wlan_cfg80211_do_acs: ht_enabled:1|ht40_enabled:0|vht_enabled:1|hw_mode:29|chwidth:20|
+Sun Oct 29 01:31:49 2023 kern.err kernel: [  108.858262] wlan: [4807:I:ANY] wlan_mbss_start_acs: ACS Arg: 967a7cac
+Sun Oct 29 01:31:49 2023 daemon.err miniupnpd[11564]: could not open lease file: /var/upnp.leases
+Sun Oct 29 01:31:49 2023 daemon.notice miniupnpd[11564]: HTTP listening on port 5000
+Sun Oct 29 01:31:49 2023 daemon.notice miniupnpd[11564]: HTTP IPv6 address given to control points : [2804:214:82d0:3eb3:1178:eaff:9172:1d63]
+Sun Oct 29 01:31:49 2023 daemon.notice miniupnpd[11564]: Listening for NAT-PMP/PCP traffic on port 5351
+Sun Oct 29 01:31:49 2023 daemon.notice netifd: Network device 'ath0' link is up
+Sun Oct 29 01:31:49 2023 daemon.emerg procd: sh: off: unknown operand
+Sun Oct 29 01:31:49 2023 daemon.emerg procd: sh: ath: unknown operand
+Sun Oct 29 01:31:49 2023 daemon.emerg procd: sh: ath: unknown operand
+Sun Oct 29 01:31:49 2023 daemon.emerg procd: sh: ath: unknown operand
+Sun Oct 29 01:31:49 2023 daemon.emerg procd: sh: ath: unknown operand
+Sun Oct 29 01:31:50 2023 kern.info kernel: [  110.666440] br-lan: port 2(ath0) entered learning state
+Sun Oct 29 01:31:51 2023 daemon.notice watchquagga[6911]: Terminating on signal
+Sun Oct 29 01:31:52 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:31:52 2023 kern.info kernel: [  112.666517] br-lan: topology change detected, propagating
+Sun Oct 29 01:31:52 2023 kern.info kernel: [  112.666548] br-lan: port 2(ath0) entered forwarding state
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043359] wlan: [3093:E:ANY] ol_ath_get_chan_grade_info: RF characterization entries is empty
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043644] wlan: [3093:E:ANY] ieee80211_acs_find_best_11ng_centerchan: ACS failed to derive the channel. Selecting random channel
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043679] wlan: [3093:I:ANY] ******** ACS report ******** 
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043697] wlan: [3093:I:ANY]  Channel | BSS  | minrssi | maxrssi | NF | Ch load | spect load | sec_chan | SR bss | SR load | Ch Avil | Chan eff | NearBSS | Med BSS | Far BSS | Eff BSS | chan grade
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043734] wlan: [3093:I:ANY] ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043761] wlan: [3093:I:ANY]  2412(  1)    4       12        62   -101       8           0          0        0         0        34       344         1         1         2       290       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043793] wlan: [3093:I:ANY]  2417(  2)    1       22        22   -102      11           0          1        0         0        42         0         0         0         1       233       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043822] wlan: [3093:I:ANY]  2422(  3)    2       11        18   -104      19           0          0        0         0        43         0         0         0         2       232       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043850] wlan: [3093:I:ANY]  2427(  4)    1       26        26   -105       5           0          0        0         0        53         0         0         0         1       186       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043938] wlan: [3093:I:ANY]  2432(  5)    1        7         7   -102       7           0          1        0         0        56         0         0         0         1       178       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.043980] wlan: [3093:I:ANY]  2437(  6)    2        7         9   -102       7           0          0        0         0        58       549         0         0         2       170       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044011] wlan: [3093:I:ANY]  2442(  7)    0        0         0   -102       1           0          1        0         0        75         0         0         0         0       133       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044039] wlan: [3093:I:ANY]  2447(  8)    0        0         0   -103       2           0          0        0         0        80         0         0         0         0       124       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044066] wlan: [3093:I:ANY]  2452(  9)    0        0         0   -104       3           0          0        0         0        78         0         0         0         0       128       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044094] wlan: [3093:I:ANY]  2457( 10)    1       10        10   -105       2           0          0        0         0        66         0         0         0         1       150       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044123] wlan: [3093:I:ANY]  2462( 11)    2       22        22   -102      11           0          0        0         0        61       617         0         0         2       162       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044150] wlan: [3093:I:ANY]  2467( 12)    0        0         0   -103       1           0          0        0         0       100         0         0         0         0         0       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044177] wlan: [3093:I:ANY]  2472( 13)    0        0         0   -104       1           0          0        0         0       100         0         0         0         0         0       100   
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044530] wlan: [3093:I:ANY] ieee80211_acs_post_event: [EXT] Channel number: 942b1d88
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044551] wlan: [3093:I:ANY] wlan_mbss_done_acs: Channel: 942b1d88
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044752] wlan: [3093:I:ANY] vap-0(ath0): ACS result PCH 6 freq 2437, SCH 10 freq 2457, hw_mode 1 chwidth 40, vht_seg0 8 freq 2447, vht_seg1 0 freq 0
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.044848] wlan: [3093:I:ANY] ieee80211_acs_scan_evhandler: [EXT] lock held duration (2ms)
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.128971] wlan: [4807:I:ANY] DES SSID SET=GX3000_fe2e
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.129009] wlan: [4807:I:ANY] desired hw mode: 29
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.129481] wlan: [4807:I:ANY] ieee80211_ucfg_set_freq_internal: 
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.129481]  Channel is configured already!!
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.129721] wlan: [4807:E:MBSSIE] ieee80211_ucfg_set_txvap: MBSSID is not enabled
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.322307] wlan: [12515:I:ANY] wlan_scan_update_channel_list: num_chan: 9
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.323014] wlan: [12515:E:ANY] dfs_init_chan_state_array: channel state array initialized
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.326896] wlan: [12515:I:ANY] wlan_scan_update_channel_list: num_chan: 9
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.327121] wlan: [12515:I:ANY] ieee80211_setctry_tryretaining_curchan: [467] Skipping current channel retention during set_country operation
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.327167] wlan: [12515:I:ANY] number of channels: 2G = 0 5G = 9, 6G = 0
+Sun Oct 29 01:31:53 2023 kern.err kernel: [  113.327185] wlan: [12515:I:ANY] wlan_cfg80211_set_country: wlan_cfg80211_set_country: Country: BR ret: 0 
+Sun Oct 29 01:31:53 2023 daemon.info hostapd: ath0: IEEE 802.11 driver had channel switch: freq=2437, ht=1, vht_ch=0x0, offset=1, width=2 (40 MHz), cf1=2447, cf2=0
+Sun Oct 29 01:31:54 2023 daemon.emerg procd: Enable ol_stats by default for Lithium platforms
+Sun Oct 29 01:31:54 2023 daemon.notice watchquagga[12612]: watchquagga 1.2.4 watching [zebra], mode [individual daemon restart]
+Sun Oct 29 01:31:54 2023 kern.err kernel: [  113.995115] wlan: [12611:I:ANY] wlan_cfg80211_set_hwaddr: wlan_cfg80211_set_hwaddr :d8:36:5f:9d:fe:31 ret: 0 
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer T1: 2000
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer T2: 16000
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer T4: 17000
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer A: 0
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer B: 0
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer C: 0
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer D: 0
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer E: 0
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer F: 32000
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer G: 0
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer H: 0
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer I: 0
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer J: 32000
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Timer K: 0
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: Keep Alive Status: False
+Sun Oct 29 01:31:54 2023 user.debug SimpleRIL[6108]: SIP Call Setup Timer: 0
+Sun Oct 29 01:31:54 2023 kern.err kernel: [  114.073741] wlan: [12623:I:ANY] ol_ath_set_config_param: set TXBF_SND_PERIOD: val 100 stat 0
+Sun Oct 29 01:31:54 2023 kern.err kernel: [  114.301712] wlan: [0:I:RPTR] RPTR disconnect_timeout:10
+Sun Oct 29 01:31:54 2023 kern.err kernel: [  114.301712] 
+Sun Oct 29 01:31:54 2023 kern.err kernel: [  114.383527] wlan: [0:I:RPTR] RPTR reconfiguration_timeout:60
+Sun Oct 29 01:31:54 2023 kern.err kernel: [  114.383527] 
+Sun Oct 29 01:31:54 2023 daemon.notice watchquagga[12612]: zebra state -> up : connect succeeded
+Sun Oct 29 01:31:55 2023 daemon.emerg procd: Enable ol_stats by default for Lithium platforms
+Sun Oct 29 01:31:55 2023 daemon.emerg procd: cat: can't open '/sys/class/net/ath1/address': No such file or directory
+Sun Oct 29 01:31:55 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:31:55 2023 daemon.emerg procd: cfg80211: ifname: ath1 mode: __ap cfgphy: phy3
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.677988] wlan: [12997:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath1 : clone params: 0x00000001 
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.678082] wlan: [12997:I:MBSSIE] osif_mbssid_sanity_check: mbssid_sanity_ok: YES
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.678110] wlan: [12997:I:ANY] osifp_create_wlan_vap: VDEV Create d8:36:5f:9d:fe:31
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.678215] wlan: [12997:I:ANY] wlan_vap_create: devhandle=0x92420500, opmode=IEEE80211_M_HOSTAP, flags=0x1
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.678215] 
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.683922] wlan: [12997:I:ANY] ol_ath_vap_set_param: Setting SGI value: 1
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.684045] wlan: [12997:I:ANY] ol_ath_vap_set_param: VDEV params:HE su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:0|dl_muofdma:1|ul_muofdma:1|ul_mumimo:1|dl_muofdma_bfer:0
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.684064] wlan: [12997:I:ANY] ol_ath_vap_set_param: he_bf_cap=0x73
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.684126] wlan: [12997:I:ANY] ol_ath_vap_set_param: VDEV params: AC/VHT sounding mode:HE|SU/MU sounding mode:SU|Trig/Non-Trig sounding mode:Non-Trigged
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.684251] wlan: [12997:I:ANY] MBO Initialized
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.684272] wlan: [12997:I:ANY] OCE Initialized
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.684324] wlan: [12997:I:ANY] osif_nss_ol_vap_create: NSS wifi offload VAP create IF 29 nss_id -1 
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.684349] wlan: [12997:I:ANY] osif_nss_ol_vap_create: NSS radio_if 31
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.684516] wlan: [0:I:ANY] osif_nss_vdev_cfg_callback: VDEV configuration success: 0
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.684997] wlan: [12997:I:ANY] osif_nss_ol_vap_create: vap create 913d0500 : if_num 29 
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.685624] wlan: [12997:E:ANY] wlan_create_attach_vdev_rawsim_ctxt: simulation module not registerd
+Sun Oct 29 01:31:55 2023 daemon.emerg procd: sh: 0: unknown operand
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.696850] wlan: [12997:I:ANY] osif_create_vap_complete: TX Checksum:1|SG:1|TSO:1|LRO:0
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.696882] wlan: [12997:I:ANY] WLAN-NSS: VAP NSS ops initialized 
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.697132] wlan: [12997:I:RPTR] RPTR vdev flags:0 pdev flags:0 vdev_id:0 pdev_id:0
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.697132] 
+Sun Oct 29 01:31:55 2023 kern.err kernel: [  115.698874] wlan: [12997:I:ANY] VAP device ath1 created osifp: (913d0500) os_if: (93758000)
+Sun Oct 29 01:31:57 2023 daemon.emerg procd: sh: 1: unknown operand
+Sun Oct 29 01:31:57 2023 kern.err kernel: [  117.203068] wlan: [13317:I:ANY] ieee80211_ucfg_setparam_util: Setting Max Stations:64
+Sun Oct 29 01:31:57 2023 daemon.emerg procd: sh: out of range
+Sun Oct 29 01:31:58 2023 kern.info kernel: [  117.725241] ECM OVS Test EXIT
+Sun Oct 29 01:31:58 2023 kern.info kernel: [  117.924353] 8021q: adding VLAN 0 to HW filter on device ath1
+Sun Oct 29 01:31:58 2023 kern.info kernel: [  117.930083] device ath1 entered promiscuous mode
+Sun Oct 29 01:31:58 2023 kern.info kernel: [  117.931312] br-lan: port 3(ath1) entered listening state
+Sun Oct 29 01:31:58 2023 kern.info kernel: [  117.931463] br-lan: port 3(ath1) entered listening state
+Sun Oct 29 01:31:58 2023 daemon.emerg procd: OK
+Sun Oct 29 01:31:58 2023 kern.err kernel: [  117.958005] wlan: [4807:I:ANY] wlan_cfg80211_do_acs: vap-0(ath1):ACS Params
+Sun Oct 29 01:31:58 2023 kern.err kernel: [  117.958033] wlan: [4807:I:ANY] wlan_cfg80211_do_acs: ht_enabled:1|ht40_enabled:0|vht_enabled:1|hw_mode:30|chwidth:20|
+Sun Oct 29 01:31:58 2023 kern.err kernel: [  117.958063] wlan: [4807:I:ANY] wlan_mbss_start_acs: ACS Arg: 967a7cac
+Sun Oct 29 01:31:58 2023 daemon.notice netifd: Network device 'ath1' link is up
+Sun Oct 29 01:31:58 2023 daemon.emerg procd: sh: off: unknown operand
+Sun Oct 29 01:31:59 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:32:00 2023 daemon.emerg procd: Command failed: Not found
+Sun Oct 29 01:32:00 2023 kern.info kernel: [  119.926869] br-lan: port 3(ath1) entered learning state
+Sun Oct 29 01:32:00 2023 kern.info kernel: [  120.490452] coresight-funnel 6130000.funnel: FUNNEL inport 5 enabled
+Sun Oct 29 01:32:00 2023 kern.info kernel: [  120.490756] coresight-funnel 6041000.funnel: FUNNEL inport 7 enabled
+Sun Oct 29 01:32:00 2023 kern.info kernel: [  120.491887] coresight-tmc 6048000.tmc: TMC enabled
+Sun Oct 29 01:32:00 2023 kern.info kernel: [  120.491917] coresight-replicator-qcom 6046000.replicator: REPLICATOR enabled
+Sun Oct 29 01:32:00 2023 kern.info kernel: [  120.491939] coresight-tmc 6047000.tmc: TMC enabled
+Sun Oct 29 01:32:00 2023 kern.info kernel: [  120.491954] coresight-funnel 6041000.funnel: FUNNEL inport 7 enabled
+Sun Oct 29 01:32:00 2023 kern.info kernel: [  120.492328] coresight-stm 6002000.stm: STM tracing enabled
+Sun Oct 29 01:32:01 2023 kern.err kernel: [  120.787488] wlan: [3093:E:ANY] ol_ath_get_chan_grade_info: RF characterization entries is empty
+Sun Oct 29 01:32:01 2023 kern.err kernel: [  120.787822] wlan: [3093:I:ANY] ieee80211_acs_post_event: [EXT] Channel number: 942b1d88
+Sun Oct 29 01:32:01 2023 kern.err kernel: [  120.787869] wlan: [3093:I:ANY] wlan_mbss_done_acs: Channel: 942b1d88
+Sun Oct 29 01:32:01 2023 kern.err kernel: [  120.788213] wlan: [3093:I:ANY] vap-0(ath1): ACS result PCH 161 freq 5805, SCH 149 freq 5745, hw_mode 2 chwidth 80, vht_seg0 155 freq 5775, vht_seg1 0 freq 0
+Sun Oct 29 01:32:01 2023 kern.err kernel: [  120.788279] wlan: [3093:I:ANY] ieee80211_acs_scan_evhandler: [EXT] lock held duration (1ms)
+Sun Oct 29 01:32:01 2023 daemon.emerg procd: device: wifi0 vifs: cfg023579 cfg033579 cfg043579 cfg053579
+Sun Oct 29 01:32:01 2023 daemon.emerg procd: device: wifi1 vifs: cfg073579 cfg083579 cfg093579 cfg0a3579
+Sun Oct 29 01:32:01 2023 kern.err kernel: [  120.878920] wlan: [4807:I:ANY] DES SSID SET=GX3000_fe2e
+Sun Oct 29 01:32:01 2023 kern.err kernel: [  120.878948] wlan: [4807:I:ANY] desired hw mode: 30
+Sun Oct 29 01:32:01 2023 kern.err kernel: [  120.879371] wlan: [4807:I:ANY] ieee80211_ucfg_set_freq_internal: 
+Sun Oct 29 01:32:01 2023 kern.err kernel: [  120.879371]  Channel is configured already!!
+Sun Oct 29 01:32:01 2023 kern.err kernel: [  120.879586] wlan: [4807:E:MBSSIE] ieee80211_ucfg_set_txvap: MBSSID is not enabled
+Sun Oct 29 01:32:01 2023 daemon.info hostapd: ath1: IEEE 802.11 driver had channel switch: freq=5805, ht=1, vht_ch=0x0, offset=-1, width=3 (80 MHz), cf1=5775, cf2=0
+Sun Oct 29 01:32:02 2023 kern.info kernel: [  121.926857] br-lan: topology change detected, propagating
+Sun Oct 29 01:32:02 2023 kern.info kernel: [  121.926896] br-lan: port 3(ath1) entered forwarding state
+Sun Oct 29 01:32:03 2023 kern.info kernel: [  122.804803] ECM exit
+Sun Oct 29 01:32:03 2023 kern.info kernel: [  123.017736] ECM exit complete
+Sun Oct 29 01:32:04 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:32:04 2023 kern.warn kernel: [  124.244652] vmap allocation for size 1122304 failed: use vmalloc=<size> to increase size.
+Sun Oct 29 01:32:04 2023 kern.info kernel: [  124.360347] ECM init
+Sun Oct 29 01:32:04 2023 kern.info kernel: [  124.360506] ECM database jhash random seed: 0x9d943a79
+Sun Oct 29 01:32:04 2023 kern.info kernel: [  124.397756] ECM init complete
+Sun Oct 29 01:32:04 2023 kern.info kernel: [  124.429014] ECM OVS Test INIT
+Sun Oct 29 01:32:04 2023 daemon.info dnsmasq[10192]: exiting on receipt of SIGTERM
+Sun Oct 29 01:32:04 2023 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sun Oct 29 01:32:04 2023 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: started, version 2.80 cachesize 150
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: DNS service limited to local subnets
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth nettlehash DNSSEC no-ID loop-detect inotify dumpfile
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq-dhcp[14551]: DHCP, IP range 192.168.1.100 -- 192.168.1.249, lease time 12h
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq-dhcp[14551]: DHCPv6, IP range ::1000 -- ::ffff, lease time 12h, template for br-lan
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq-dhcp[14551]: DHCPv4-derived IPv6 names on br-lan
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq-dhcp[14551]: router advertisement on br-lan
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq-dhcp[14551]: DHCPv6, IP range 2804:214:82d0:3eb3::1000 -- 2804:214:82d0:3eb3::ffff, lease time 12h, constructed for br-lan
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq-dhcp[14551]: DHCPv4-derived IPv6 names on 2804:214:82d0:3eb3::, constructed for br-lan
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq-dhcp[14551]: router advertisement on 2804:214:82d0:3eb3::, constructed for br-lan
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq-dhcp[14551]: IPv6 router advertisement enabled
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: using local addresses only for domain lan
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: reading /tmp/resolv.conf.auto
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: using local addresses only for domain lan
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: using nameserver 189.40.198.88#53
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: using nameserver 189.40.198.80#53
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: using nameserver 2804:214:8000:ffff::88#53
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: using nameserver 2804:214:8000:ffff::80#53
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: read /etc/hosts - 1 addresses
+Sun Oct 29 01:32:05 2023 daemon.info dnsmasq[14551]: read /tmp/hosts/dhcp.cfg01411c - 2 addresses
+Sun Oct 29 01:32:05 2023 daemon.err dnsmasq-dhcp[14551]: failed to read /etc/ethers: No such file or directory
+Sun Oct 29 01:32:06 2023 cron.err crond[4223]: time disparity of 3588752 minutes detected
+Sun Oct 29 01:32:08 2023 daemon.err dnsmasq[14551]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:08 2023 daemon.err dnsmasq[14551]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:08 2023 user.notice firewall: Reloading firewall due to ifup of wan1 (rmnet_data0)
+Sun Oct 29 01:32:09 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:32:09 2023 authpriv.info dropbear[15093]: Child connection from 192.168.1.122:52688
+Sun Oct 29 01:32:10 2023 kern.info kernel: [  130.198346] ECM OVS Test EXIT
+Sun Oct 29 01:32:13 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:32:15 2023 kern.info kernel: [  135.260696] ECM exit
+Sun Oct 29 01:32:15 2023 authpriv.notice dropbear[15093]: Password auth succeeded for 'admin' from 192.168.1.122:52688
+Sun Oct 29 01:32:15 2023 kern.info kernel: [  135.477698] ECM exit complete
+Sun Oct 29 01:32:16 2023 daemon.err dnsmasq[14551]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:16 2023 daemon.err dnsmasq[14551]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:17 2023 daemon.err dnsmasq[14551]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:17 2023 daemon.err dnsmasq[14551]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:17 2023 kern.warn kernel: [  136.803619] vmap allocation for size 1122304 failed: use vmalloc=<size> to increase size.
+Sun Oct 29 01:32:17 2023 daemon.err dnsmasq[14551]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:17 2023 kern.info kernel: [  137.054316] ECM init
+Sun Oct 29 01:32:17 2023 kern.info kernel: [  137.054431] ECM database jhash random seed: 0x5ddb9645
+Sun Oct 29 01:32:17 2023 kern.info kernel: [  137.117786] ECM init complete
+Sun Oct 29 01:32:17 2023 kern.info kernel: [  137.163291] ECM OVS Test INIT
+Sun Oct 29 01:32:17 2023 daemon.info dnsmasq[14551]: exiting on receipt of SIGTERM
+Sun Oct 29 01:32:17 2023 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sun Oct 29 01:32:17 2023 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: started, version 2.80 cachesize 150
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: DNS service limited to local subnets
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth nettlehash DNSSEC no-ID loop-detect inotify dumpfile
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq-dhcp[15970]: DHCP, IP range 192.168.1.100 -- 192.168.1.249, lease time 12h
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq-dhcp[15970]: DHCPv6, IP range ::1000 -- ::ffff, lease time 12h, template for br-lan
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq-dhcp[15970]: DHCPv4-derived IPv6 names on br-lan
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq-dhcp[15970]: router advertisement on br-lan
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq-dhcp[15970]: DHCPv6, IP range 2804:214:82d0:3eb3::1000 -- 2804:214:82d0:3eb3::ffff, lease time 12h, constructed for br-lan
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq-dhcp[15970]: DHCPv4-derived IPv6 names on 2804:214:82d0:3eb3::, constructed for br-lan
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq-dhcp[15970]: router advertisement on 2804:214:82d0:3eb3::, constructed for br-lan
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq-dhcp[15970]: IPv6 router advertisement enabled
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: using local addresses only for domain lan
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: reading /tmp/resolv.conf.auto
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: using local addresses only for domain lan
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: using nameserver 189.40.198.88#53
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: using nameserver 189.40.198.80#53
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: using nameserver 2804:214:8000:ffff::88#53
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: using nameserver 2804:214:8000:ffff::80#53
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: read /etc/hosts - 1 addresses
+Sun Oct 29 01:32:18 2023 daemon.info dnsmasq[15970]: read /tmp/hosts/dhcp.cfg01411c - 2 addresses
+Sun Oct 29 01:32:18 2023 daemon.err dnsmasq-dhcp[15970]: failed to read /etc/ethers: No such file or directory
+Sun Oct 29 01:32:19 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:32:20 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:20 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:20 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:20 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:21 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:32:24 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:24 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:27 2023 daemon.notice miniupnpd[11564]: shutting down MiniUPnPd
+Sun Oct 29 01:32:27 2023 daemon.err miniupnpd[17053]: could not open lease file: /var/upnp.leases
+Sun Oct 29 01:32:27 2023 daemon.notice miniupnpd[17053]: HTTP listening on port 5000
+Sun Oct 29 01:32:27 2023 daemon.notice miniupnpd[17053]: HTTP IPv6 address given to control points : [2804:214:82d0:3eb3:1178:eaff:9172:1d63]
+Sun Oct 29 01:32:27 2023 daemon.notice miniupnpd[17053]: Listening for NAT-PMP/PCP traffic on port 5351
+Sun Oct 29 01:32:29 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:32:30 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:32:38 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:32:40 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:32:41 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:41 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:47 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:32:48 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:48 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:49 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:32:50 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:32:55 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:33:00 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:33:04 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:33:10 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:33:13 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:33:20 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:33:21 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:33:30 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:33:31 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:33:38 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:33:41 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:33:44 2023 user.debug SimpleRIL[6108]: CARD 0
+Sun Oct 29 01:33:44 2023 user.debug SimpleRIL[6108]: card state Present
+Sun Oct 29 01:33:44 2023 user.debug SimpleRIL[6108]: upin state Unknown
+Sun Oct 29 01:33:44 2023 user.debug SimpleRIL[6108]: upin retries 0
+Sun Oct 29 01:33:44 2023 user.debug SimpleRIL[6108]: upuk retries 0
+Sun Oct 29 01:33:44 2023 user.debug SimpleRIL[6108]: perso state Ready
+Sun Oct 29 01:33:44 2023 user.debug SimpleRIL[6108]: pin1 state Disabled
+Sun Oct 29 01:33:44 2023 user.debug SimpleRIL[6108]: pin1 retries 3
+Sun Oct 29 01:33:44 2023 user.debug SimpleRIL[6108]: pin2 state Enabled and not verified
+Sun Oct 29 01:33:44 2023 user.debug SimpleRIL[6108]: pin2 retries 3
+Sun Oct 29 01:33:47 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:33:51 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:33:55 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x7684e030, evt 8, profile 0
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x769ba0e0, evt 8, profile 0
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 8 recv
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:663] evt 8, handle_v4 0x7684e030, profile 0, call_state 4
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 8 recv
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:573] evt 8, handle_v6 0x769ba0e0, profile 0, call_state 4
+Sun Oct 29 01:33:56 2023 daemon.notice netifd: device_set_link, L:546, set main_status 0
+Sun Oct 29 01:33:56 2023 daemon.err miniupnpd[17053]: Failed to get IP for interface rmnet_data0
+Sun Oct 29 01:33:56 2023 daemon.warn miniupnpd[17053]: SendNATPMPPublicAddressChangeNotification: cannot get public IP address, stopping
+Sun Oct 29 01:33:56 2023 daemon.notice netifd: Network device 'rmnet_data0' link is down
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x7684e030, evt 2, profile 0
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x769ba0e0, evt 2, profile 0
+Sun Oct 29 01:33:56 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:33:56 2023 user.debug SimpleRIL[6108]: NW_REG (NO SERVICE) 
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 2 recv
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:663] evt 2, handle_v4 0x7684e030, profile 0, call_state 4
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:669] Received event DSI_EVT_NET_NO_NET in V4_WAN_CONNECTED for profile 0
+Sun Oct 29 01:33:56 2023 user.err : [IPQCM: ipqcm_process_dsi_event:673] Call Disconnected reason type=2 reason code =218 
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_rel_data_srvc_hndl:2031] Disconnecting v4, profile 0, handlev4 0x7684e030
+Sun Oct 29 01:33:56 2023 user.notice admin: stop rmnet cfg:wan1
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:684] bringing down "rmnet_data0" for v4 profile  0
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_perform_rmnet_update:157] Call active so not Setting Profile_num: 0 to state: 0
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_delete_config_files:2021] removing config file rm -rf /tmp/ipv4config0
+Sun Oct 29 01:33:56 2023 daemon.notice netifd: Interface 'lan_bind6' is now down
+Sun Oct 29 01:33:56 2023 daemon.notice netifd: Interface 'lan_bind6' has link connectivity loss
+Sun Oct 29 01:33:56 2023 daemon.info dnsmasq-dhcp[15970]: router advertisement on 2804:214:82d0:3eb3::, old prefix for br-lan
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 2 recv
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:573] evt 2, handle_v6 0x769ba0e0, profile 0, call_state 4
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:580] Received event DSI_EVT_NET_NO_NET in state V6_WAN_CONNECTED for profile 0
+Sun Oct 29 01:33:56 2023 user.err : [IPQCM: ipqcm_process_dsi_event:584] Call Disconnected reason type=2 reason code =218 
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:587] calling rel_srvc_handle for 0 pdn ip_family 6
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_rel_data_srvc_hndl:2050] Disconnecting v6, profile 0, handlev6 0x769ba0e0
+Sun Oct 29 01:33:56 2023 daemon.notice netifd: wan1 (25379): Interface lan_bind4 not found
+Sun Oct 29 01:33:56 2023 daemon.notice netifd: wan1 (25379): sh: 1: unknown operand
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:595] bringing down "rmnet_data0" for v6 profile  0
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_perform_rmnet_update:151] both v4/v6 handles NULL Setting Profile_num: 0 to state: 0
+Sun Oct 29 01:33:56 2023 daemon.notice netifd: Interface 'wan1' is now down
+Sun Oct 29 01:33:56 2023 daemon.warn dnsmasq[15970]: no servers found in /tmp/resolv.conf.auto, will retry
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: ipqcm_delete_config_files:2021] removing config file rm -rf /tmp/ipv6config0
+Sun Oct 29 01:33:56 2023 user.err : [AT_RIL: at_get_cell_info:2873] maybe no simcard
+Sun Oct 29 01:33:56 2023 user.debug : [IPQCM: main:4754] -- at_ipqcm_call_status re-call(155)
+Sun Oct 29 01:33:57 2023 user.debug : [IPQCM: enable_bh_v2:3225] Network not register
+Sun Oct 29 01:33:57 2023 user.err : [AT_RIL: at_ipqcm_set_sim_status:1957] Set sim_absent success
+Sun Oct 29 01:33:57 2023 user.debug : [IPQCM: get_at_ril_input:3638] get_at_ril_input:sim_absent
+Sun Oct 29 01:33:58 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:33:58 2023 user.debug SimpleRIL[6108]: NW_REG (LIMITED SERVICE) (WCDMA)
+Sun Oct 29 01:33:58 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:33:58 2023 user.debug SimpleRIL[6108]: NW_REG (LIMITED SERVICE) (WCDMA)
+Sun Oct 29 01:33:58 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:33:58 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:33:59 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:33:59 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:33:59 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:33:59 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:00 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:00 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:00 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:00 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:01 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:34:01 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:01 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:01 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:01 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:01 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:02 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:34:02 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:34:02 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:34:02 2023 user.debug SimpleRIL[6108]: NW_REG (LIMITED SERVICE) (LTE)
+Sun Oct 29 01:34:02 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:34:02 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:34:02 2023 user.debug SimpleRIL[6108]: NW_REG (NO SERVICE) 
+Sun Oct 29 01:34:03 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:34:03 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:34:03 2023 user.debug SimpleRIL[6108]: NW_REG (LIMITED SERVICE) (LTE)
+Sun Oct 29 01:34:03 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:03 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:03 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:04 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:34:04 2023 user.debug SimpleRIL[6108]: NW_REG (IN SERVICE) (LTE)
+Sun Oct 29 01:34:04 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:34:04 2023 user.err : [AT_RIL: at_ipqcm_set_sim_status:1957] Set sim_ready success
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: get_at_ril_input:3638] get_at_ril_input:sim_ready
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: main:4649] -- at_ipqcm_call_status_recall
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: ipqcm_check_modem_tech:515] Serving System=0,  ret=-1
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: ipqcm_read_xml_config:1095] debug mode = 0
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: ipqcm_read_xml_config:1175] Profile_num = 0
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: ipqcm_read_xml_config:1165] family = IPV4V6
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: ipqcm_read_xml_config:1197] call_status_v6 = 5
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: ipqcm_read_xml_config:1186] call_status_v4 = 5
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: ipqcm_read_xml_config:1215] ac for this pdn? = 1, pdn_type= 0, profilenum = 0, global_ac = 1, call_status_v4 = 5, call_status_v6 = 5
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: ipqcm_check_modem_tech:515] Serving System=0,  ret=-1
+Sun Oct 29 01:34:04 2023 user.debug : [IPQCM: ipqcm_enable_bh_v4:1969] handle4 0x76970180, profile 0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_enable_bh_v4:1990] dsi_start_data_callv4 success rval 0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x76970180, evt 18, profile 0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 18 recv
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:663] evt 18, handle_v4 0x76970180, profile 0, call_state 2
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x76970180, evt 1, profile 0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 1 recv
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:663] evt 1, handle_v4 0x76970180, profile 0, call_state 2
+Sun Oct 29 01:34:05 2023 user.warn kernel: [  244.834824] [ipqcm_process_dsi_event][705]:[IPQCM] ipv4 connected for profile 0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:711] getting devname for handle_v4 0x76970180, profile 0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:718] devname rmnet_data1 for handle_v4 0x76970180, profile 0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_print_ip_addr:2383] SaveInfo dev:rmnet_data1, handle4 0x76970180, profile 0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_print_ip_addr:2450] Fam: 4, addr cnt 1, device rmnet_data1
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_print_ip_addr:2464] filename /tmp/ipv4config0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_print_ip_addr:2526] IPV4:100.116.9.245
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:721] bringing up rmnet_data1 for v4 profile  0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_perform_rmnet_update:143] Setting Profile_num: 0 to state: 1
+Sun Oct 29 01:34:05 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:05 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:05 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:05 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_check_modem_tech:515] Serving System=0,  ret=-1
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_enable_bh_v6:1875] handle6 0x7683a030, profile 0
+Sun Oct 29 01:34:05 2023 user.debug SimpleRIL[6108]: [NOTIFICATION]
+Sun Oct 29 01:34:05 2023 user.debug SimpleRIL[6108]: NW_REG (IN SERVICE) (LTE)
+Sun Oct 29 01:34:05 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:05 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_enable_bh_v6:1897] dsi_start_data_callv6 success rval 0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x7683a030, evt 18, profile 0
+Sun Oct 29 01:34:05 2023 user.debug : [IPQCM: ipqcm_ev_cb:1334] ipqcm_ev_cb:hndl 0x7683a030, evt 1, profile 0
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: Interface 'wan1' is setting up now
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 18 recv
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:573] evt 18, handle_v6 0x7683a030, profile 0, call_state 2
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: process_dsi_events:4146] DSI socket recv, ipqcm_dsi_buffer->evt 1 recv
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:573] evt 1, handle_v6 0x7683a030, profile 0, call_state 2
+Sun Oct 29 01:34:06 2023 user.warn kernel: [  245.975051] [ipqcm_process_dsi_event][615]:[IPQCM] ipv6 connected for profile 0
+Sun Oct 29 01:34:06 2023 user.notice admin: start rmnet wan1
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:621] getting devname for handle_v6 0x7683a030, profile 0
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:630] devname rmnet_data1 for handle_v6 0x7683a030, profile 0
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_print_ip_addr:2421] SaveInfo dev:rmnet_data1, handle6 0x7683a030, profile 0
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_print_ip_addr:2450] Fam: 6, addr cnt 2, device rmnet_data1
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_print_ip_addr:2464] filename /tmp/ipv4config0
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_print_ip_addr:2526] IPV4:100.116.9.245
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_print_ip_addr:2471] filename /tmp/ipv6config0
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_print_ip_addr:2531] IPV6:2804:0214:8618:f161:7c50:b89a:dc4b:a75d
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_process_dsi_event:634] bringing up rmnet_data1 for v6 profile  0
+Sun Oct 29 01:34:06 2023 user.debug : [IPQCM: ipqcm_perform_rmnet_update:143] Setting Profile_num: 0 to state: 1
+Sun Oct 29 01:34:06 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:06 2023 daemon.err dnsmasq[15970]: failed to send packet: Network unreachable
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: wan1 (26791): ifconfig: pppoe-wan: error fetching interface information: Device not found
+Sun Oct 29 01:34:06 2023 user.notice admin: stop rmnet cfg:wan1
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: wan1 (26842): Interface lan_bind6 not found
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: wan1 (26842): Interface lan_bind4 not found
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: wan1 (26842): sh: 1: unknown operand
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: Interface 'wan1' is now down
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: Interface 'lan_bind6' is enabled
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: Interface 'lan_bind6' is setting up now
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: Interface 'lan_bind6' is now up
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: lan_bind6, br-lan, static
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: Interface 'lan_bind6' has link connectivity 
+Sun Oct 29 01:34:06 2023 daemon.notice netifd: Network device 'rmnet_data1' link is up
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: Interface 'wan1' is setting up now
+Sun Oct 29 01:34:07 2023 user.notice admin: start rmnet wan1
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: wan1 (27119): ifconfig: pppoe-wan: error fetching interface information: Device not found
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: Interface 'lan_bind6' is now down
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: Interface 'lan_bind6' has link connectivity loss
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: Interface 'lan_bind6' is enabled
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: Interface 'lan_bind6' is setting up now
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: Interface 'lan_bind6' is now up
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: lan_bind6, br-lan, static
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: Interface 'lan_bind6' has link connectivity 
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: wan1 (27119): Command failed: Unknown error
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: wan1 (27119): RTNETLINK answers: File exists
+Sun Oct 29 01:34:07 2023 daemon.notice miniupnpd[17053]: shutting down MiniUPnPd
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: Interface 'wan1' is now up
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: wan1, (null), rmnet
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: interface_proto_event_cb, L:693, set main_status 1
+Sun Oct 29 01:34:07 2023 daemon.info dnsmasq[15970]: reading /tmp/resolv.conf.auto
+Sun Oct 29 01:34:07 2023 daemon.info dnsmasq[15970]: using local addresses only for domain lan
+Sun Oct 29 01:34:07 2023 daemon.info dnsmasq[15970]: using nameserver 189.40.198.88#53
+Sun Oct 29 01:34:07 2023 daemon.info dnsmasq[15970]: using nameserver 189.40.198.80#53
+Sun Oct 29 01:34:07 2023 daemon.info dnsmasq[15970]: using nameserver 2804:214:8000:ffff::88#53
+Sun Oct 29 01:34:07 2023 daemon.info dnsmasq[15970]: using nameserver 2804:214:8000:ffff::80#53
+Sun Oct 29 01:34:07 2023 daemon.notice netifd: wan1 (27119): RTNETLINK answers: No such process
+Sun Oct 29 01:34:08 2023 daemon.err miniupnpd[27256]: could not open lease file: /var/upnp.leases
+Sun Oct 29 01:34:08 2023 daemon.notice miniupnpd[27256]: HTTP listening on port 5000
+Sun Oct 29 01:34:08 2023 daemon.notice miniupnpd[27256]: HTTP IPv6 address given to control points : [2804:214:8618:f161:7c50:b89a:dc4b:a75d]
+Sun Oct 29 01:34:08 2023 daemon.notice miniupnpd[27256]: Listening for NAT-PMP/PCP traffic on port 5351
+Sun Oct 29 01:34:08 2023 user.notice admin: update rmnet done
+Sun Oct 29 01:34:09 2023 daemon.info dnsmasq-dhcp[15970]: router advertisement on 2804:214:8618:f161::, old prefix for br-lan
+Sun Oct 29 01:34:09 2023 daemon.info dnsmasq-dhcp[15970]: DHCPv6, IP range 2804:214:8618:f161::1000 -- 2804:214:8618:f161::ffff, lease time 12h, constructed for br-lan
+Sun Oct 29 01:34:09 2023 daemon.info dnsmasq-dhcp[15970]: DHCPv4-derived IPv6 names on 2804:214:8618:f161::, constructed for br-lan
+Sun Oct 29 01:34:09 2023 daemon.info dnsmasq-dhcp[15970]: router advertisement on 2804:214:8618:f161::, constructed for br-lan
+Sun Oct 29 01:34:11 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:34:14 2023 user.notice firewall: Reloading firewall due to ifup of wan1 (rmnet_data1)
+Sun Oct 29 01:34:17 2023 kern.info kernel: [  256.876918] ECM OVS Test EXIT
+Sun Oct 29 01:34:17 2023 user.debug : [AT_RIL: wait_for_response:137] wait_for_response timeout
+Sun Oct 29 01:34:20 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:34:21 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:34:22 2023 kern.info kernel: [  261.928316] ECM exit
+Sun Oct 29 01:34:22 2023 kern.info kernel: [  262.168457] ECM exit complete
+Sun Oct 29 01:34:23 2023 kern.warn kernel: [  263.399263] vmap allocation for size 1122304 failed: use vmalloc=<size> to increase size.
+Sun Oct 29 01:34:23 2023 kern.info kernel: [  263.524997] ECM init
+Sun Oct 29 01:34:23 2023 kern.info kernel: [  263.525148] ECM database jhash random seed: 0xf3d82cfa
+Sun Oct 29 01:34:23 2023 kern.info kernel: [  263.558732] ECM init complete
+Sun Oct 29 01:34:23 2023 kern.info kernel: [  263.587861] ECM OVS Test INIT
+Sun Oct 29 01:34:23 2023 daemon.info dnsmasq[15970]: exiting on receipt of SIGTERM
+Sun Oct 29 01:34:24 2023 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sun Oct 29 01:34:24 2023 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: started, version 2.80 cachesize 150
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: DNS service limited to local subnets
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth nettlehash DNSSEC no-ID loop-detect inotify dumpfile
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq-dhcp[28904]: DHCP, IP range 192.168.1.100 -- 192.168.1.249, lease time 12h
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq-dhcp[28904]: DHCPv6, IP range ::1000 -- ::ffff, lease time 12h, template for br-lan
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq-dhcp[28904]: DHCPv4-derived IPv6 names on br-lan
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq-dhcp[28904]: router advertisement on br-lan
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq-dhcp[28904]: DHCPv6, IP range 2804:214:8618:f161::1000 -- 2804:214:8618:f161::ffff, lease time 12h, constructed for br-lan
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq-dhcp[28904]: DHCPv4-derived IPv6 names on 2804:214:8618:f161::, constructed for br-lan
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq-dhcp[28904]: router advertisement on 2804:214:8618:f161::, constructed for br-lan
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq-dhcp[28904]: IPv6 router advertisement enabled
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: using local addresses only for domain lan
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: reading /tmp/resolv.conf.auto
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: using local addresses only for domain lan
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: using nameserver 189.40.198.88#53
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: using nameserver 189.40.198.80#53
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: using nameserver 2804:214:8000:ffff::88#53
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: using nameserver 2804:214:8000:ffff::80#53
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: read /etc/hosts - 1 addresses
+Sun Oct 29 01:34:24 2023 daemon.info dnsmasq[28904]: read /tmp/hosts/dhcp.cfg01411c - 2 addresses
+Sun Oct 29 01:34:24 2023 daemon.err dnsmasq-dhcp[28904]: failed to read /etc/ethers: No such file or directory
+Sun Oct 29 01:34:26 2023 daemon.notice miniupnpd[27256]: shutting down MiniUPnPd
+Sun Oct 29 01:34:26 2023 daemon.err miniupnpd[29384]: could not open lease file: /var/upnp.leases
+Sun Oct 29 01:34:26 2023 daemon.notice miniupnpd[29384]: HTTP listening on port 5000
+Sun Oct 29 01:34:26 2023 daemon.notice miniupnpd[29384]: HTTP IPv6 address given to control points : [2804:214:8618:f161:7c50:b89a:dc4b:a75d]
+Sun Oct 29 01:34:26 2023 daemon.notice miniupnpd[29384]: Listening for NAT-PMP/PCP traffic on port 5351
+Sun Oct 29 01:34:32 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:34:32 2023 user.debug : [AT_RIL: wait_for_response:137] wait_for_response timeout
+Sun Oct 29 01:34:34 2023 daemon.notice miniupnpd[29384]: shutting down MiniUPnPd
+Sun Oct 29 01:34:34 2023 daemon.err miniupnpd[30144]: could not open lease file: /var/upnp.leases
+Sun Oct 29 01:34:34 2023 daemon.notice miniupnpd[30144]: HTTP listening on port 5000
+Sun Oct 29 01:34:34 2023 daemon.notice miniupnpd[30144]: HTTP IPv6 address given to control points : [2804:214:8618:f161:7c50:b89a:dc4b:a75d]
+Sun Oct 29 01:34:34 2023 daemon.notice miniupnpd[30144]: Listening for NAT-PMP/PCP traffic on port 5351
+Sun Oct 29 01:34:35 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:34:42 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:34:47 2023 user.debug : [AT_RIL: wait_for_response:137] wait_for_response timeout
+Sun Oct 29 01:34:50 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
+Sun Oct 29 01:34:52 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:35:01 2023 user.debug : [AT_RIL: wait_for_response:137] wait_for_response timeout
+Sun Oct 29 01:35:02 2023 daemon.err mapid: MQTT reconnect: The client is not currently connected.
+Sun Oct 29 01:35:05 2023 user.debug SimpleRIL[6108]: SUCCESS (UNCONDITIONAL)
