@@ -1,0 +1,29 @@
+admin@GX 3000:/# ls /dev
+bus                        mhi_0308_00.01.00_pipe_0   mtd19                      mtd9                       net                        shm
+caldata                    mhi_0308_00.01.00_pipe_14  mtd19ro                    mtd9ro                     network_latency            snd
+console                    mhi_0308_00.01.00_pipe_16  mtd1ro                     mtdblock0                  network_throughput         spidev32766.0
+coresight-stm              mhi_at                     mtd2                       mtdblock1                  null                       subsys_q6v5_wcss_userpd1
+coresight-tmc-etf          mhi_diag                   mtd20                      mtdblock10                 nvram                      subsys_q6v5_wcss_userpd3
+coresight-tmc-etr          msm_sps                    mtd20ro                    mtdblock11                 port                       subsys_qcom_q6v5_wcss
+cpu_dma_latency            mtd0                       mtd21                      mtdblock12                 ppp                        switch_ssdk
+crypto                     mtd0ro                     mtd21ro                    mtdblock13                 ptmx                       tty
+diag                       mtd1                       mtd22                      mtdblock14                 pts                        ttyEUD0
+full                       mtd10                      mtd22ro                    mtdblock15                 ram0                       ttyMSM0
+fuse                       mtd10ro                    mtd23                      mtdblock16                 ram1                       ttyUSB0
+hwrng                      mtd11                      mtd23ro                    mtdblock17                 ram10                      ubi0
+i2c-0                      mtd11ro                    mtd24                      mtdblock18                 ram11                      ubi0_0
+kmsg                       mtd12                      mtd24ro                    mtdblock19                 ram12                      ubi0_1
+log                        mtd12ro                    mtd2ro                     mtdblock2                  ram13                      ubi0_2
+loop-control               mtd13                      mtd3                       mtdblock20                 ram14                      ubi0_3
+loop0                      mtd13ro                    mtd3ro                     mtdblock21                 ram15                      ubi0_4
+loop1                      mtd14                      mtd4                       mtdblock22                 ram2                       ubi_ctrl
+loop2                      mtd14ro                    mtd4ro                     mtdblock23                 ram3                       urandom
+loop3                      mtd15                      mtd5                       mtdblock24                 ram4                       watchdog
+loop4                      mtd15ro                    mtd5ro                     mtdblock3                  ram5                       watchdog0
+loop5                      mtd16                      mtd6                       mtdblock4                  ram6                       zero
+loop6                      mtd16ro                    mtd6ro                     mtdblock5                  ram7
+loop7                      mtd17                      mtd7                       mtdblock6                  ram8
+mapper                     mtd17ro                    mtd7ro                     mtdblock7                  ram9
+mem                        mtd18                      mtd8                       mtdblock8                  random
+memory_bandwidth           mtd18ro                    mtd8ro                     mtdblock9                  root
+admin@GX 3000:/#
