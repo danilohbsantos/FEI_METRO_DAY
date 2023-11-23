@@ -1,0 +1,50 @@
+alselectro@raspberrypi:~ $ iperf -s -e -i l -u
+Invalid value of 'l' for -i interval
+alselectro@raspberrypi:~ $ iperf -s -e -i 1 -u
+------------------------------------------------------------
+Server listening on UDP port 5001 with pid 2056
+Read buffer size: 1.44 KByte (Dist bin width= 183 Byte)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58238
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-1.0000 sec   128 KBytes  1.05 Mbits/sec   0.104 ms    0/   89 (0%) 25.857/25.602/26.916/ 2.878 ms   89 pps 3.30 KByte 5.06
+[  3] 1.0000-2.0000 sec   126 KBytes  1.03 Mbits/sec   0.117 ms    0/   88 (0%) 26.126/25.670/26.512/ 0.124 ms   89 pps 3.35 KByte 4.95
+[  3] 2.0000-3.0000 sec   129 KBytes  1.06 Mbits/sec   0.098 ms    0/   90 (0%) 26.103/25.661/26.229/ 0.094 ms   89 pps 3.33 KByte 5.07
+[  3] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   0.113 ms    0/   89 (0%) 26.128/25.659/26.135/ 0.103 ms   90 pps 3.37 KByte 5.01
+[  3] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec   0.114 ms    0/   89 (0%) 26.113/25.620/26.084/ 0.095 ms   89 pps 3.32 KByte 5.01
+[  3] 5.0000-6.0000 sec   129 KBytes  1.06 Mbits/sec   0.140 ms    0/   90 (0%) 26.123/25.589/26.550/ 0.121 ms   90 pps 3.37 KByte 5.06
+[  3] 6.0000-7.0000 sec   128 KBytes  1.05 Mbits/sec   0.123 ms    0/   89 (0%) 26.150/25.672/26.443/ 0.161 ms   89 pps 3.33 KByte 5.00
+[  3] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec   0.199 ms    0/   89 (0%) 26.152/25.670/26.541/ 0.156 ms   89 pps 3.34 KByte 5.00
+[  3] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec   0.116 ms    0/   89 (0%) 26.089/25.669/26.057/ 0.087 ms   89 pps 3.33 KByte 5.01
+[  3] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec   0.149 ms    0/   89 (0%) 26.110/25.577/26.860/ 0.152 ms   89 pps 3.35 KByte 5.01
+[  3] 10.0000-10.0105 sec  2.87 KBytes  2.23 Mbits/sec   0.145 ms    0/    2 (0%) 38.721/25.710/25.891/ 0.128 ms  128 pps 7.12 KByte 7.21
+[  3] 0.0000-10.0105 sec  1.25 MBytes  1.05 Mbits/sec   0.145 ms    0/  893 (0%) 25.834/25.577/26.916/ 0.912 ms   89 pps 3.31 KByte 5.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58239
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-1.0000 sec   126 KBytes  1.03 Mbits/sec   0.129 ms    0/   88 (0%) 25.915/25.740/27.270/ 2.922 ms   89 pps 3.30 KByte 4.99
+[  4] 1.0000-2.0000 sec   129 KBytes  1.06 Mbits/sec   0.106 ms    0/   90 (0%) 26.196/25.752/26.151/ 0.091 ms   90 pps 3.37 KByte 5.05
+[  4] 2.0000-3.0000 sec   126 KBytes  1.03 Mbits/sec   0.120 ms    0/   88 (0%) 26.203/25.688/26.877/ 0.163 ms   89 pps 3.34 KByte 4.94
+[  4] 3.0000-4.0000 sec   129 KBytes  1.06 Mbits/sec   0.177 ms    0/   90 (0%) 26.211/25.694/26.556/ 0.135 ms   90 pps 3.37 KByte 5.05
+[  4] 4.0000-5.0000 sec   126 KBytes  1.03 Mbits/sec   0.098 ms    0/   88 (0%) 26.172/25.741/26.157/ 0.079 ms   89 pps 3.33 KByte 4.94
+[  4] 5.0000-6.0000 sec   129 KBytes  1.06 Mbits/sec   0.105 ms    0/   90 (0%) 26.171/25.738/26.359/ 0.102 ms   89 pps 3.36 KByte 5.06
+[  4] 6.0000-7.0000 sec   128 KBytes  1.05 Mbits/sec   0.105 ms    0/   89 (0%) 26.154/25.688/25.994/ 0.080 ms   90 pps 3.36 KByte 5.00
+[  4] 7.0000-8.0000 sec   129 KBytes  1.06 Mbits/sec   0.112 ms    0/   90 (0%) 26.174/25.725/26.209/ 0.089 ms   89 pps 3.34 KByte 5.05
+[  4] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec   0.126 ms    0/   89 (0%) 26.195/25.760/26.239/ 0.096 ms   89 pps 3.34 KByte 4.99
+[  4] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec   0.102 ms    0/   89 (0%) 26.198/25.666/26.467/ 0.111 ms   90 pps 3.38 KByte 4.99
+[  4] 10.0000-10.0220 sec  2.87 KBytes  1.07 Mbits/sec   0.099 ms    0/    2 (0%) 38.862/25.808/25.965/ 0.010 ms   65 pps 3.62 KByte 3.44
+[  4] 0.0000-10.0220 sec  1.25 MBytes  1.05 Mbits/sec   0.099 ms    0/  893 (0%) 25.898/25.666/27.270/ 0.918 ms   89 pps 3.31 KByte 5.06
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 63750
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-1.0000 sec   128 KBytes  1.05 Mbits/sec   0.120 ms    0/   89 (0%) 25.994/25.697/28.327/ 2.874 ms   89 pps 3.33 KByte 5.03
+[  3] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec   0.115 ms    0/   89 (0%) 26.216/25.780/26.055/ 0.081 ms   89 pps 3.35 KByte 4.99
+[  3] 2.0000-3.0000 sec   126 KBytes  1.03 Mbits/sec   0.112 ms    0/   88 (0%) 26.241/25.739/26.403/ 0.119 ms   89 pps 3.35 KByte 4.93
+[  3] 3.0000-4.0000 sec   131 KBytes  1.07 Mbits/sec   0.081 ms    0/   91 (0%) 26.166/25.682/26.172/ 0.080 ms   90 pps 3.37 KByte 5.11
+[  3] 4.0000-5.0000 sec   126 KBytes  1.03 Mbits/sec   0.111 ms    0/   88 (0%) 26.226/25.735/26.219/ 0.100 ms   89 pps 3.34 KByte 4.93
+[  3] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec   0.104 ms    0/   89 (0%) 26.219/25.701/26.070/ 0.085 ms   89 pps 3.35 KByte 4.99
+[  3] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec   0.108 ms    0/   90 (0%) 26.252/25.728/26.265/ 0.100 ms   90 pps 3.39 KByte 5.04
+[  3] 7.0000-8.0000 sec   126 KBytes  1.03 Mbits/sec   0.087 ms    0/   88 (0%) 26.227/25.816/26.109/ 0.075 ms   89 pps 3.34 KByte 4.93
+[  3] 8.0000-9.0000 sec   129 KBytes  1.06 Mbits/sec   0.152 ms    0/   90 (0%) 26.258/25.707/26.914/ 0.143 ms   89 pps 3.36 KByte 5.04
+[  3] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec   0.127 ms    0/   89 (0%) 26.257/25.753/26.731/ 0.135 ms   89 pps 3.37 KByte 4.98
+[  3] 10.0000-10.0223 sec  2.87 KBytes  1.06 Mbits/sec   0.124 ms    0/    2 (0%) 38.908/25.818/26.008/ 0.012 ms   65 pps 3.61 KByte 3.39
+[  3] 0.0000-10.0223 sec  1.25 MBytes  1.05 Mbits/sec   0.124 ms    0/  893 (0%) 25.943/25.682/28.327/ 0.909 ms   89 pps 3.32 KByte 5.05

@@ -1,0 +1,93 @@
+Microsoft Windows [Version 10.0.22631.2715]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\danil>dir
+ Volume in drive C is OS
+ Volume Serial Number is 3440-917B
+
+ Directory of C:\Users\danil
+
+11/23/2023  12:30 PM    <DIR>          .
+10/19/2023  04:08 PM    <DIR>          ..
+10/12/2023  06:31 PM    <DIR>          .ssh
+10/19/2023  04:43 PM    <DIR>          Contacts
+09/22/2023  09:15 PM    <DIR>          Documents
+11/21/2023  09:23 PM    <DIR>          Downloads
+10/19/2023  04:43 PM    <DIR>          Favorites
+11/09/2023  10:34 PM    <DIR>          iperf
+10/19/2023  04:43 PM    <DIR>          Links
+09/30/2023  01:49 AM    <DIR>          Microsoft
+10/19/2023  04:43 PM    <DIR>          Music
+10/19/2023  04:09 PM    <DIR>          OneDrive
+10/19/2023  04:43 PM    <DIR>          Saved Games
+10/19/2023  04:43 PM    <DIR>          Searches
+11/05/2023  07:46 PM    <DIR>          Videos
+               0 File(s)              0 bytes
+              15 Dir(s)  838,045,941,760 bytes free
+
+C:\Users\danil>cd iperf
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 3804
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58238 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 3508
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58239 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 4080
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 63750 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>

@@ -1,0 +1,10 @@
+Event	Stats
+Voice Calls	18
+Successful Calls	18
+Blocked Calls	0
+Dropped Calls	0
+SMS Attempts	18
+SMS Sent	17
+SMS Not Sent	1
+SMS Delivered	17
+SMS Not Delivered	0
