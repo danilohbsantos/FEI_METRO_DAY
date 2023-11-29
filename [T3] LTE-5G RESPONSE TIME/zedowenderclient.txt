@@ -1,0 +1,1942 @@
+Microsoft Windows [Version 10.0.22631.2715]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\danil>dir
+ Volume in drive C is OS
+ Volume Serial Number is 3440-917B
+
+ Directory of C:\Users\danil
+
+11/24/2023  03:28 PM    <DIR>          .
+10/19/2023  04:08 PM    <DIR>          ..
+10/12/2023  06:31 PM    <DIR>          .ssh
+10/19/2023  04:43 PM    <DIR>          Contacts
+09/22/2023  09:15 PM    <DIR>          Documents
+11/24/2023  02:16 AM    <DIR>          Downloads
+10/19/2023  04:43 PM    <DIR>          Favorites
+11/09/2023  10:34 PM    <DIR>          iperf
+10/19/2023  04:43 PM    <DIR>          Links
+09/30/2023  01:49 AM    <DIR>          Microsoft
+10/19/2023  04:43 PM    <DIR>          Music
+10/19/2023  04:09 PM    <DIR>          OneDrive
+10/19/2023  04:43 PM    <DIR>          Saved Games
+10/19/2023  04:43 PM    <DIR>          Searches
+11/05/2023  07:46 PM    <DIR>          Videos
+               0 File(s)              0 bytes
+              15 Dir(s)  836,685,099,008 bytes free
+
+C:\Users\danil>cd iperf
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13672
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 51924 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 7960
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 59678 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13688
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 49890 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12960
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 65193 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.03 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11220
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 54787 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12012
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 62446 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 2148
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 61583 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 6168
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 60739 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11396
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 62423 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13988
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 53010 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 2788
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 59477 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13256
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58690 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 656
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 53741 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11376
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 63506 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13404
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 54708 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11704
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 51037 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13572
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 50275 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.03 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 10312
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 52256 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 3032
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 49635 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 7088
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 59422 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.03 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11312
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 61304 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 7452
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 50335 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 4.00-5.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12728
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 61486 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12052
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 57173 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13388
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 49983 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 2524
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 56562 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11484
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58536 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 14188
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 61812 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 8912
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 51445 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13368
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 65430 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 7032
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 62188 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.03 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 5720
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 59850 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12828
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 57113 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13016
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 50996 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 14132
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 63993 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 6168
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 63776 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 1404
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 50212 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 6208
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58754 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 1460
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 52077 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 5.00-6.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 7916
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 52683 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.03 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11028
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 53861 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.03 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 5004
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58399 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 8916
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 64671 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12476
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 50271 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 6444
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 53478 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 0.00-10.03 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 10112
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 60334 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 1668
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 56811 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 9776
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 53450 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 7084
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 60162 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 6104
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 54082 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13052
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58608 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 5380
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 56002 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12756
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58586 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12168
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 57783 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13680
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 52530 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13996
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 60963 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11008
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 52791 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 5600
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 61616 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 9116
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 53749 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 3552
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 61701 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12072
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 51546 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13960
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 55270 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 8484
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 51629 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11460
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 65416 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 10792
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 53455 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11572
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 60497 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 8120
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58630 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   88 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 7620
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 64556 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11744
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 63276 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 10472
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 50119 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13684
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 61264 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13992
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58138 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 3892
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 52489 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 3784
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 52421 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 5876
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 53527 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 13872
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 65317 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 5260
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 60626 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 7432
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 50490 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 3236
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 64331 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 8804
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 50545 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12736
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 51604 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 2924
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 65324 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 14100
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 55801 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11828
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 65338 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.03 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 12012
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58191 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 14160
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 49195 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   90 pps
+[  3] 4.00-5.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 3292
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 58566 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 5.00-6.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 6.00-7.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.00 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 892 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 9924
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 64913 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 10232
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 53120 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 2.00-3.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.02 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 8120
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 62156 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   131 KBytes  1.07 Mbits/sec   90 pps
+[  3] 1.00-2.00 sec   126 KBytes  1.03 Mbits/sec   88 pps
+[  3] 2.00-3.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   129 KBytes  1.06 Mbits/sec   90 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>iperf -c 192.168.1.246 -u -i 1 -e
+------------------------------------------------------------
+Client connecting to 192.168.1.246, UDP port 5001 with pid 11052
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.195 port 64463 connected with 192.168.1.246 port 5001
+[ ID] Interval       Transfer     Bandwidth      PPS
+[  3] 0.00-1.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 1.00-2.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 2.00-3.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 3.00-4.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 4.00-5.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 5.00-6.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 6.00-7.00 sec   128 KBytes  1.05 Mbits/sec   89 pps
+[  3] 7.00-8.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 8.00-9.00 sec   126 KBytes  1.03 Mbits/sec   89 pps
+[  3] 9.00-10.00 sec   129 KBytes  1.06 Mbits/sec   89 pps
+[  3] 0.00-10.01 sec  1.25 MBytes  1.05 Mbits/sec   89 pps
+[  3] Sent 893 datagrams
+
+C:\Users\danil\iperf>
