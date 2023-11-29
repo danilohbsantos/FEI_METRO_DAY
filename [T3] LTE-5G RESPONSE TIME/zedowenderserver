@@ -1,0 +1,288 @@
+alselectro@raspberrypi:~ $ iperf -s -e -i -u
+Invalid value of '-u' for -i interval
+alselectro@raspberrypi:~ $ iperf -s -e- i l -u
+iperf: invalid option -- -
+iperf: ignoring extra argument -- i
+iperf: ignoring extra argument -- l
+------------------------------------------------------------
+Server listening on UDP port 5001 with pid 2029
+Read buffer size: 1.44 KByte (Dist bin width= 183 Byte)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 51924
+^[[A[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0014 sec  1.25 MBytes  1.05 Mbits/sec   0.170 ms    0/  892 (0%) 1727.888/1727.608/1752.179/57.932 ms   89 pps  221 KByte 0.08
+^[[B^[[A
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 59678
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0115 sec  1.25 MBytes  1.05 Mbits/sec   0.129 ms    0/  893 (0%) 1727.763/1727.534/1737.026/57.875 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 49890
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0008 sec  1.25 MBytes  1.05 Mbits/sec   0.087 ms    0/  892 (0%) 1727.608/1727.384/1728.740/57.915 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 65193
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0253 sec  1.25 MBytes  1.05 Mbits/sec   0.137 ms    0/  893 (0%) 1727.805/1727.346/1762.296/57.928 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 54787
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0008 sec  1.25 MBytes  1.05 Mbits/sec   4.176 ms    0/  892 (0%) 1732.529/1727.374/1758.125/58.097 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 62446
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0036 sec  1.25 MBytes  1.05 Mbits/sec   2.766 ms    0/  892 (0%) 1727.965/1727.436/1755.544/58.758 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 61583
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0009 sec  1.25 MBytes  1.05 Mbits/sec   0.242 ms    0/  892 (0%) 1728.406/1727.462/1763.860/58.059 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 60739
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0122 sec  1.25 MBytes  1.05 Mbits/sec   0.095 ms    0/  893 (0%) 1728.140/1727.588/1757.450/57.937 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 62423
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-9.9706 sec  1.25 MBytes  1.05 Mbits/sec   0.119 ms    0/  893 (0%) 1735.058/1727.650/1800.020/59.781 ms   90 pps  223 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 53010
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0111 sec  1.25 MBytes  1.05 Mbits/sec   0.166 ms    0/  893 (0%) 1728.030/1727.721/1734.145/57.940 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 59477
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0063 sec  1.25 MBytes  1.05 Mbits/sec   2.927 ms    0/  892 (0%) 1733.540/1727.849/1763.187/58.129 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58690
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0140 sec  1.25 MBytes  1.05 Mbits/sec   0.478 ms    0/  893 (0%) 1728.576/1727.843/1739.838/57.913 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 53741
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0067 sec  1.25 MBytes  1.05 Mbits/sec   3.880 ms    0/  892 (0%) 1732.810/1728.046/1764.859/58.106 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 63506
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0137 sec  1.25 MBytes  1.05 Mbits/sec   1.736 ms    0/  893 (0%) 1730.621/1728.047/1765.542/58.058 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 54708
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0181 sec  1.25 MBytes  1.05 Mbits/sec   0.091 ms    0/  893 (0%) 1728.798/1728.151/1756.252/57.923 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 51037
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0359 sec  1.25 MBytes  1.05 Mbits/sec   4.312 ms    0/  893 (0%) 1732.833/1728.177/1767.013/58.168 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 50275
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0253 sec  1.25 MBytes  1.05 Mbits/sec   0.274 ms    0/  893 (0%) 1728.740/1728.223/1752.665/57.921 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 52256
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-9.9978 sec  1.25 MBytes  1.05 Mbits/sec   3.858 ms    0/  892 (0%) 1734.446/1728.500/1796.406/58.557 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 49635
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0119 sec  1.25 MBytes  1.05 Mbits/sec   4.345 ms    0/  893 (0%) 1731.094/1728.464/1787.414/58.339 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 59422
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0260 sec  1.25 MBytes  1.05 Mbits/sec   3.672 ms    0/  893 (0%) 1733.526/1728.608/1762.077/58.173 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 61304
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0021 sec  1.25 MBytes  1.05 Mbits/sec   0.125 ms    0/  892 (0%) 1729.189/1728.737/1753.831/57.984 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 50335
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0052 sec  1.25 MBytes  1.05 Mbits/sec   7.835 ms    0/  892 (0%) 1731.641/1728.775/1780.452/58.552 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 61486
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0214 sec  1.25 MBytes  1.05 Mbits/sec   0.229 ms    0/  893 (0%) 1729.086/1728.816/1757.967/57.943 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 57173
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0001 sec  1.25 MBytes  1.05 Mbits/sec   0.440 ms    0/  893 (0%) 1735.042/1728.847/1939.376/60.741 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 49983
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-9.9993 sec  1.25 MBytes  1.05 Mbits/sec   0.801 ms    0/  892 (0%) 1729.513/1728.831/1735.261/58.014 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 56562
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0045 sec  1.25 MBytes  1.05 Mbits/sec   4.642 ms    0/  892 (0%) 1732.513/1728.840/1755.453/58.111 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58536
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0212 sec  1.25 MBytes  1.05 Mbits/sec   0.625 ms    0/  893 (0%) 1729.754/1728.896/1753.670/57.950 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 61812
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0189 sec  1.25 MBytes  1.05 Mbits/sec   4.952 ms    0/  893 (0%) 1730.260/1728.949/1757.020/57.988 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 51445
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0150 sec  1.25 MBytes  1.05 Mbits/sec   0.573 ms    0/  893 (0%) 1729.641/1728.997/1749.822/58.029 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 65430
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0013 sec  1.25 MBytes  1.05 Mbits/sec   0.127 ms    0/  892 (0%) 1729.533/1729.019/1759.487/58.012 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 62188
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0264 sec  1.25 MBytes  1.05 Mbits/sec   5.127 ms    0/  893 (0%) 1730.554/1729.075/1762.979/58.035 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 59850
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0213 sec  1.25 MBytes  1.05 Mbits/sec   0.758 ms    0/  893 (0%) 1729.898/1729.075/1740.458/57.952 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 57113
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0310 sec  1.25 MBytes  1.05 Mbits/sec   3.553 ms    0/  893 (0%) 1730.395/1729.143/1758.342/58.016 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 50996
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0220 sec  1.25 MBytes  1.05 Mbits/sec   0.086 ms    0/  893 (0%) 1729.595/1729.223/1733.644/57.934 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 63993
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0017 sec  1.25 MBytes  1.05 Mbits/sec   1.188 ms    0/  892 (0%) 1729.866/1729.334/1758.071/58.030 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 63776
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0151 sec  1.25 MBytes  1.05 Mbits/sec   5.075 ms    0/  893 (0%) 1735.744/1729.465/1763.599/58.411 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 50212
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0029 sec  1.25 MBytes  1.05 Mbits/sec   6.816 ms    0/  892 (0%) 1739.309/1729.497/1817.923/59.667 ms   89 pps  223 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58754
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-9.9802 sec  1.25 MBytes  1.05 Mbits/sec   0.325 ms    0/  893 (0%) 1730.254/1729.555/1759.917/58.947 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 52077
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0003 sec  1.25 MBytes  1.05 Mbits/sec   0.100 ms    0/  892 (0%) 1729.862/1729.583/1733.439/57.974 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 52683
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0303 sec  1.25 MBytes  1.05 Mbits/sec   5.013 ms    0/  893 (0%) 1732.024/1729.652/1798.470/58.328 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 53861
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0231 sec  1.25 MBytes  1.05 Mbits/sec   0.120 ms    0/  893 (0%) 1729.969/1729.740/1731.760/57.952 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58399
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0166 sec  1.25 MBytes  1.05 Mbits/sec   2.786 ms    0/  893 (0%) 1732.746/1729.790/1757.799/58.106 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 64671
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-9.9935 sec  1.25 MBytes  1.05 Mbits/sec   2.112 ms    0/  892 (0%) 1732.431/1729.871/1776.221/58.228 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 50271
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0117 sec  1.25 MBytes  1.05 Mbits/sec   1.402 ms    0/  893 (0%) 1731.087/1729.906/1776.604/58.119 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 53478
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0828 sec  1.25 MBytes  1.04 Mbits/sec  11.325 ms    0/  893 (0%) 1739.721/1729.972/1819.570/59.677 ms   89 pps  221 KByte 0.07
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 60334
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0023 sec  1.25 MBytes  1.05 Mbits/sec   0.402 ms    0/  892 (0%) 1731.126/1730.007/1766.342/58.118 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 56811
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0228 sec  1.25 MBytes  1.05 Mbits/sec   0.111 ms    0/  893 (0%) 1730.786/1730.055/1758.621/58.039 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 53450
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0122 sec  1.25 MBytes  1.05 Mbits/sec   1.321 ms    0/  893 (0%) 1731.000/1730.112/1741.506/57.979 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 60162
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0149 sec  1.25 MBytes  1.05 Mbits/sec   0.185 ms    0/  893 (0%) 1730.654/1730.213/1740.998/57.961 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 54082
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0015 sec  1.25 MBytes  1.05 Mbits/sec   0.110 ms    0/  892 (0%) 1730.481/1730.253/1734.845/58.002 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58608
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0124 sec  1.25 MBytes  1.05 Mbits/sec   1.250 ms    0/  893 (0%) 1733.345/1730.431/1753.134/58.109 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 56002
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-9.9994 sec  1.25 MBytes  1.05 Mbits/sec   0.342 ms    0/  892 (0%) 1730.849/1730.514/1741.860/58.017 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58586
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0188 sec  1.25 MBytes  1.05 Mbits/sec   0.076 ms    0/  893 (0%) 1730.827/1730.596/1731.709/57.982 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 57783
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-9.9994 sec  1.25 MBytes  1.05 Mbits/sec   2.836 ms    0/  892 (0%) 1734.752/1730.660/1746.371/58.135 ms   89 pps  222 KByte 0.08
+[  4] WARNING: ack of last datagram failed.
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 52530
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0128 sec  1.25 MBytes  1.05 Mbits/sec   0.318 ms    0/  893 (0%) 1731.032/1730.704/1742.367/57.995 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 60963
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0239 sec  1.25 MBytes  1.05 Mbits/sec   0.107 ms    0/  893 (0%) 1731.026/1730.765/1732.411/57.989 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 52791
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0193 sec  1.25 MBytes  1.05 Mbits/sec   2.309 ms    0/  893 (0%) 1731.887/1730.864/1761.763/58.171 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 61616
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-9.9995 sec  1.25 MBytes  1.05 Mbits/sec   3.017 ms    0/  892 (0%) 1733.357/1730.958/1759.154/58.108 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 53749
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0014 sec  1.25 MBytes  1.05 Mbits/sec   0.313 ms    0/  892 (0%) 1731.645/1731.026/1750.688/58.058 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 61701
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0203 sec  1.25 MBytes  1.05 Mbits/sec   0.112 ms    0/  893 (0%) 1731.390/1731.083/1744.117/58.009 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 51546
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0133 sec  1.25 MBytes  1.05 Mbits/sec   0.854 ms    0/  893 (0%) 1733.583/1731.172/1809.345/58.357 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 55270
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0224 sec  1.25 MBytes  1.05 Mbits/sec   0.117 ms    0/  893 (0%) 1731.579/1731.213/1742.089/58.011 ms   89 pps  221 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 51629
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0341 sec  1.25 MBytes  1.05 Mbits/sec   3.143 ms    0/  893 (0%) 1734.434/1731.310/1745.820/58.084 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 65416
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0199 sec  1.25 MBytes  1.05 Mbits/sec  14.101 ms    0/  893 (0%) 1735.816/1731.392/1861.266/60.075 ms   89 pps  222 KByte 0.08
+[  4] 0.0000-10.0199 sec  1 datagrams received out-of-order
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 53455
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0479 sec  1.25 MBytes  1.05 Mbits/sec   4.669 ms    0/  893 (0%) 1732.939/1731.480/1770.581/58.133 ms   89 pps  221 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 60497
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0050 sec  1.25 MBytes  1.05 Mbits/sec   1.263 ms    0/  893 (0%) 1735.557/1731.534/1764.200/58.255 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58630
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0164 sec  1.25 MBytes  1.05 Mbits/sec   0.091 ms    0/  893 (0%) 1732.083/1731.577/1741.466/58.095 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 64556
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0246 sec  1.25 MBytes  1.05 Mbits/sec   4.002 ms    0/  893 (0%) 1736.504/1731.632/1769.411/58.270 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 63276
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0025 sec  1.25 MBytes  1.05 Mbits/sec   0.109 ms    0/  892 (0%) 1732.007/1731.723/1734.522/58.052 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 50119
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0140 sec  1.25 MBytes  1.05 Mbits/sec   2.966 ms    0/  893 (0%) 1734.789/1731.802/1759.295/58.173 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 61264
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0187 sec  1.25 MBytes  1.05 Mbits/sec   0.929 ms    0/  893 (0%) 1734.351/1731.885/1762.555/58.184 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58138
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0084 sec  1.25 MBytes  1.05 Mbits/sec   0.085 ms    0/  892 (0%) 1733.281/1731.936/1762.576/58.232 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 52489
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0227 sec  1.25 MBytes  1.05 Mbits/sec   4.735 ms    0/  893 (0%) 1737.848/1731.983/1795.011/58.455 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 52421
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0108 sec  1.25 MBytes  1.05 Mbits/sec   0.099 ms    0/  893 (0%) 1732.522/1732.130/1737.255/58.036 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 53527
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0178 sec  1.25 MBytes  1.05 Mbits/sec   5.290 ms    0/  892 (0%) 1736.822/1732.157/1771.821/58.342 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 65317
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0115 sec  1.25 MBytes  1.05 Mbits/sec   0.403 ms    0/  893 (0%) 1732.559/1732.242/1737.581/58.176 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 60626
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0015 sec  1.25 MBytes  1.05 Mbits/sec   0.101 ms    0/  892 (0%) 1732.540/1732.279/1734.747/58.072 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 50490
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0132 sec  1.25 MBytes  1.05 Mbits/sec   6.331 ms    0/  892 (0%) 1738.327/1732.344/1784.939/58.773 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 64331
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0124 sec  1.25 MBytes  1.05 Mbits/sec   3.328 ms    0/  893 (0%) 1733.008/1732.433/1760.990/58.082 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 50545
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0100 sec  1.25 MBytes  1.05 Mbits/sec   4.597 ms    0/  892 (0%) 1734.681/1732.506/1787.490/58.251 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 51604
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-9.9996 sec  1.25 MBytes  1.05 Mbits/sec   0.562 ms    0/  893 (0%) 1733.613/1732.613/1764.456/58.558 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 65324
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0120 sec  1.25 MBytes  1.05 Mbits/sec   0.101 ms    0/  893 (0%) 1732.941/1732.663/1735.694/58.040 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 55801
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0130 sec  1.25 MBytes  1.05 Mbits/sec   5.506 ms    0/  893 (0%) 1737.981/1732.733/1769.140/58.515 ms   89 pps  223 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 65338
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0229 sec  1.25 MBytes  1.05 Mbits/sec   0.140 ms    0/  893 (0%) 1733.947/1732.824/1762.554/58.147 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58191
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0215 sec  1.25 MBytes  1.05 Mbits/sec   3.586 ms    0/  893 (0%) 1734.822/1732.856/1776.236/58.215 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 49195
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0022 sec  1.25 MBytes  1.05 Mbits/sec   0.940 ms    0/  892 (0%) 1736.528/1732.939/1851.936/59.239 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 58566
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0058 sec  1.25 MBytes  1.05 Mbits/sec   2.725 ms    0/  892 (0%) 1735.838/1733.080/1773.383/58.277 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 64913
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0139 sec  1.25 MBytes  1.05 Mbits/sec   0.412 ms    0/  893 (0%) 1734.337/1733.115/1759.566/58.133 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 53120
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0229 sec  1.25 MBytes  1.05 Mbits/sec   0.081 ms    0/  893 (0%) 1739.179/1733.288/1858.546/61.474 ms   89 pps  222 KByte 0.08
+[  4] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 62156
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  4] 0.0000-10.0186 sec  1.25 MBytes  1.05 Mbits/sec   3.100 ms    0/  893 (0%) 1734.672/1733.327/1754.130/58.129 ms   89 pps  222 KByte 0.08
+[  3] local 192.168.1.246%eth0 port 5001 connected with 192.168.1.195 port 64463
+[ ID] Interval            Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS  inP NetPwr
+[  3] 0.0000-10.0107 sec  1.25 MBytes  1.05 Mbits/sec   0.818 ms    0/  893 (0%) 1733.685/1733.309/1749.320/58.077 ms   89 pps  222 KByte 0.08
+
